@@ -41,8 +41,15 @@ switch(state) {
 				speed = 0
 				canshoot = false;
 				scr_shootBullet(self, obj_player.x, obj_player.y)
+			} else {
+				reloading += 1
+				if (reloading >= weapon.reloadTime) {
+					weapon.clipCapacity = weapon.maxClipCapacity
+					reloading = 0
+				}
 			}
 		}
+		state = ENEMYSTATE.alerted
 		// TODO: RELOADING?!
 	
 	break

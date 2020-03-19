@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_parent_enemy",
     "eventList": [
-        
+        {
+            "id": "0db0b354-17f4-42e0-9f4e-be85874b412a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "494a3b31-2be4-4d43-af7e-ccfda5808574"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -161,6 +170,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "currentCooldown",
+            "varType": 0
+        },
+        {
+            "id": "8af96914-229f-4365-8c64-2696af9804d4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "reloading",
             "varType": 0
         }
     ],

@@ -13,4 +13,5 @@ other.weapon.bulletSprite = bulletSprite
 other.weapon.damage = damage
 other.weapon.criticalChance = criticalChance
 other.reloading = 0
+//other.weapon = self
 instance_destroy()

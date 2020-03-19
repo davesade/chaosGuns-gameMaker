@@ -80,17 +80,3 @@ with(other) instance_destroy();
 /// @DnDArgument : "expr" "ENEMYSTATE.alerted"
 /// @DnDArgument : "var" "state"
 state = ENEMYSTATE.alerted;
-
-/// @DnDAction : YoYo Games.Instance Variables.If_Health
-/// @DnDVersion : 1
-/// @DnDHash : 1165B613
-/// @DnDArgument : "op" "1"
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health < 0)
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 460A6BC1
-	/// @DnDParent : 1165B613
-	instance_destroy();
-}

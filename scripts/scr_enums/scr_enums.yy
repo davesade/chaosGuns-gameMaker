@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "scr_enums",
     "IsCompatibility": false,
-    "IsDnD": true
+    "IsDnD": false
 }

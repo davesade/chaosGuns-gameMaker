@@ -88,108 +88,12 @@
             "value": "30"
         },
         {
-            "id": "d09bfa49-3058-499c-a77e-27879975ee5f",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "09334032-11c6-4903-a806-fd288f2f0117",
-            "value": "60"
-        },
-        {
-            "id": "b43ea9a7-06cc-44bf-b92d-b3237478c287",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "beb2d5ff-8733-435f-b174-2ce413c82c67",
-            "value": "100"
-        },
-        {
-            "id": "88eebcc8-876d-45a8-8ec6-95b22d832240",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "12363146-d075-4095-a9c7-fec12ba814d6",
-            "value": "8"
-        },
-        {
-            "id": "c19aa545-3c31-4f18-8375-6852f1a718e3",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "8df76af2-e4a7-4296-8632-57416c0b1c19",
-            "value": "240"
-        },
-        {
-            "id": "ffb4d7b3-1df5-40a0-b6a0-a83dfeff789f",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "77d3a796-b00f-4f3f-bcf3-3029d1c3dee6",
-            "value": "5"
-        },
-        {
-            "id": "f0d5c8ea-3063-4583-a24a-1d017f6f310b",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "1169204f-ab9c-41c5-a200-9ed67b854137",
-            "value": "1"
-        },
-        {
-            "id": "d8212a71-b6ca-498c-a966-f8c45ea216a0",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "639b030c-886b-4da2-aba4-f9388ee57b0a",
-            "value": "3"
-        },
-        {
-            "id": "2002201c-50a8-42e1-8f95-07be9d19c66b",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "5a2a3d88-4403-4056-814a-189e7f874966",
-            "value": "0"
-        },
-        {
-            "id": "0cecd58f-e30a-419c-81f0-a078c0edb5c4",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "c27d7f1b-9918-442c-a5c0-b8e2ef734811",
-            "value": "4"
-        },
-        {
-            "id": "b7ac8f19-b67f-4c55-8220-2d4a0fb2251e",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "e8e09d4d-8730-4d60-af3d-6c4a274c22d5",
-            "value": "8"
-        },
-        {
             "id": "27756595-6ffb-42fa-bb25-77ad38ee6e41",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "a5343539-3614-44b0-b371-144f560af73b",
             "value": "1200"
-        },
-        {
-            "id": "a86b4dda-a65b-480b-be18-a7bdb1b8f856",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "a422fb18-ce15-40c6-b0c0-efebfae477b6",
-            "value": "25"
-        },
-        {
-            "id": "9f4e27d3-6bc2-4718-970c-07492bd65d5b",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "2b89aac8-6953-4283-90ac-e0e18c54d08f",
-            "value": "0"
         },
         {
             "id": "b16cd28b-5523-430e-bdd3-281773cc1359",

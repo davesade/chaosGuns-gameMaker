@@ -48,3 +48,7 @@ switch(state) {
 		attentionTime = 0
 	break
 }
+
+if (__dnd_health <= 0) {
+	instance_destroy()
+}

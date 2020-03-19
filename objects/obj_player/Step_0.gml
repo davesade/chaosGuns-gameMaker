@@ -10,52 +10,21 @@ input_right = keyboard_check(ord("D"));
 // State refresh
 switch(state) {
 	case PLAYERSTATE.idle:
-		sprite_index = spr_drokk_walk
-		image_speed = 0
-		// Intended game mechanics - to reload, you have to wait in idle state - cannot reload when walking - subject of change?
-		if (weapon.maxClipCapacity > weapon.clipCapacity) {
-			reloading += 1
-			if (reloading >= weapon.reloadTime) {
-				weapon.clipCapacity = weapon.maxClipCapacity
-				reloading = 0
-			}
-		}
-		break
+		scr_playerstate_idle()
+	break
 	case PLAYERSTATE.walking:
-		sprite_index = spr_drokk_walk
-		image_speed = 1
-		reloading += 1
-		break
+		scr_playerstate_walking()
+	break
 	case PLAYERSTATE.shooting:
-		sprite_index = spr_drokk_attack
-		image_speed = 1
-		break
-	case PLAYERSTATE.cooldown:
-		break
+		scr_playerstate_shooting()
+	break
+	case PLAYERSTATE.melee:
+		scr_playerstate_melee()
+	break
 }
 #endregion
 
-#region MOVEMENT
-// Set Instance Rotation
-image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-// Movement - check for collisions
-targetX = (input_right - input_left) * characterSpeed
-targetY = (input_down - input_up) * characterSpeed
-
-if (targetX != 0 || targetY != 0) {
-	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
-		state = PLAYERSTATE.walking
-		x += targetX
-		y += targetY
-	} else {
-		targetX = 0
-		targetY = 0
-	}
-}
-
-if (targetX == 0 && targetY == 0) {state = PLAYERSTATE.idle}
-#endregion
 
 #region ATTACK PHASE
 // Shooting
@@ -86,6 +55,8 @@ if (!canshoot) {
 }
 
 #endregion
+
+
 
 
 // Check for health
