@@ -10,6 +10,6 @@ draw_set_font(font_basic);
 /// @DnDHash : 4823513D
 /// @DnDArgument : "x" "view_current.x"
 /// @DnDArgument : "y" "view_current.y"
-/// @DnDArgument : "caption" ""DMG: ""
-/// @DnDArgument : "var" "obj_player.weapon.damage"
-draw_text(view_current.x, view_current.y, string("DMG: ") + string(obj_player.weapon.damage));
+/// @DnDArgument : "caption" ""Ammo: ""
+/// @DnDArgument : "var" "obj_player.weapon.clipCapacity"
+draw_text(view_current.x, view_current.y, string("Ammo: ") + string(obj_player.weapon.clipCapacity));

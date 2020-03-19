@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0e736a68-c004-4f63-af39-54331d8d6cdd",
+            "Value": {
+                "id": "f72b9439-7aa0-4be8-92f3-b49a565266dc",
+                "resourcePath": "objects\/obj_soldier\/obj_soldier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b463419-3cbe-45a9-ad3d-978a698d0d60",
             "Value": {
                 "id": "83d86792-ac1c-4fe9-8f88-c2777071af9f",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "67658c78-a14d-41ca-86da-fef1570946a4",
+            "Value": {
+                "id": "4ccdfeaa-5cfb-4159-8604-492d06d7e170",
+                "resourcePath": "sprites\/spr_bigmama_attack\/spr_bigmama_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a6b5102-f396-493d-80d7-44502883f46c",
             "Value": {
                 "id": "ca5bed5c-7a52-4c65-ad57-a79be2e654bf",
@@ -332,6 +348,14 @@
                 "id": "df0e46f7-dcfb-4ecf-bdd6-8c716bbdd8bb",
                 "resourcePath": "objects\/obj_parent_weapon\/obj_parent_weapon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8c591b84-23f1-447d-aa6b-ab341e3da480",
+            "Value": {
+                "id": "91ab7dbd-adf8-4443-bd22-2120d1884850",
+                "resourcePath": "sprites\/spr_bigmama_walk\/spr_bigmama_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

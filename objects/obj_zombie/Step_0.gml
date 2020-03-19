@@ -26,6 +26,11 @@ switch(state) {
 		if (distance_to_object(obj_player) < attackRange) {
 			state = ENEMYSTATE.attacking
 		}
+		attentionTime += 1
+		if (attentionTime >= maxAttentionTime) {
+			state = ENEMYSTATE.idle
+			attentionTime = 0
+		}
 	break
 	case ENEMYSTATE.attacking:
 		if (currentCooldown == 0) {
@@ -40,5 +45,6 @@ switch(state) {
 			currentCooldown = 0
 		}
 		speed = 0
+		attentionTime = 0
 	break
 }

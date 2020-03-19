@@ -11,4 +11,6 @@ other.weapon.pellets = pellets
 other.weapon.shotDistance = shotDistance
 other.weapon.bulletSprite = bulletSprite
 other.weapon.damage = damage
+other.weapon.criticalChance = criticalChance
+other.reloading = 0
 instance_destroy()

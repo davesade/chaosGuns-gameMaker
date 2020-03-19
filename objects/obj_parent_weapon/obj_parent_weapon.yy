@@ -213,6 +213,20 @@
             "value": "0",
             "varName": "maxClipCapacity",
             "varType": 0
+        },
+        {
+            "id": "0e4a4397-ab8d-42b9-a6fa-5d2434fafff6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "criticalChance",
+            "varType": 0
         }
     ],
     "solid": false,

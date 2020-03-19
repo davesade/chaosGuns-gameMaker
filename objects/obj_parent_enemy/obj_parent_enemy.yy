@@ -122,7 +122,35 @@
             "varType": 0
         },
         {
-            "id": "2b89aac8-6953-4283-90ac-e0e18c54d08f",
+            "id": "2563ff0e-80ef-4254-8434-bffbb1bf63d6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "attentionTime",
+            "varType": 0
+        },
+        {
+            "id": "a5343539-3614-44b0-b371-144f560af73b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "maxAttentionTime",
+            "varType": 0
+        },
+        {
+            "id": "d95146ac-a198-4d30-976d-798d762a2f10",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,

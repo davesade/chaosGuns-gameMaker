@@ -76,7 +76,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "current_cooldown",
+            "varName": "currentCooldown",
             "varType": 1
         },
         {
@@ -304,6 +304,20 @@
             "varType": 0
         },
         {
+            "id": "36a28a92-05ba-4b19-8d2a-f01217daf6e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "weapon.maxClipCapacity",
+            "varType": 0
+        },
+        {
             "id": "9b17d316-083b-43d5-aa98-285d9b899fe8",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -329,6 +343,20 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "characterSpeed",
+            "varType": 0
+        },
+        {
+            "id": "678cd54e-3bfc-46d3-816f-9a38b736c1f4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "reloading",
             "varType": 0
         }
     ],

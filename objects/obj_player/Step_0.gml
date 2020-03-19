@@ -12,24 +12,23 @@ switch(state) {
 	case PLAYERSTATE.idle:
 		sprite_index = spr_drokk_walk
 		image_speed = 0
+		// Intended game mechanics - to reload, you have to wait in idle state - cannot reload when walking - subject of change?
+		if (weapon.maxClipCapacity > weapon.clipCapacity) {
+			reloading += 1
+			if (reloading >= weapon.reloadTime) {
+				weapon.clipCapacity = weapon.maxClipCapacity
+				reloading = 0
+			}
+		}
 		break
 	case PLAYERSTATE.walking:
 		sprite_index = spr_drokk_walk
 		image_speed = 1
+		reloading += 1
 		break
 	case PLAYERSTATE.shooting:
 		sprite_index = spr_drokk_attack
 		image_speed = 1
-		var _list = ds_list_create();
-		enemies_in_hearing_range = collision_circle_list(x,y,weapon.hearingDistance, obj_zombie, false, false, _list, false)
-		if enemies_in_hearing_range > 0
-	    {
-	    for (var i = 0; i < enemies_in_hearing_range; ++i;)
-	        {
-	        _list[| i].state = ENEMYSTATE.alerted
-	        }
-	    }
-		ds_list_destroy(_list);
 		break
 	case PLAYERSTATE.cooldown:
 		break
@@ -63,11 +62,13 @@ if (targetX == 0 && targetY == 0) {state = PLAYERSTATE.idle}
 var attack;
 attack = mouse_check_button(mb_left);
 if (attack) {
-	if (canshoot) {
-		state = PLAYERSTATE.shooting;
-		canshoot = false;
+	if (canshoot) {	
 		if (weapon.clipCapacity > 0) {
 			weapon.clipCapacity -= 1
+			state = PLAYERSTATE.shooting;
+			canshoot = false;
+			// Reloading is reset!
+			reloading = 0
 			scr_shootBullet(self, mouse_x, mouse_y)
 		} else {
 			scr_trace("RELOAD!");
@@ -77,10 +78,10 @@ if (attack) {
 
 // Weapon cooldown
 if (!canshoot) {
-	current_cooldown += 1
-	if (current_cooldown >= weapon.cooldown) {
+	currentCooldown += 1
+	if (currentCooldown >= weapon.cooldown) {
 		canshoot = true
-		current_cooldown = 0
+		currentCooldown = 0
 	}
 }
 
