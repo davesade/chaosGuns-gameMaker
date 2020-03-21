@@ -15,16 +15,6 @@
             "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
         },
         {
-            "id": "ed0937a1-21e8-42e3-ae13-7c7aafbbbb70",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c1a5d6e1-2ad5-49c4-adef-8134a1ca40f3",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
-        },
-        {
             "id": "dc2918bd-4c87-4217-8e0a-4e9c64bc20ee",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,16 +22,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
-        },
-        {
-            "id": "2cb427e2-27bd-4b9f-b26b-48f717858f2c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
             "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
         }
     ],
@@ -110,6 +90,38 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "82f070a9-88cf-435a-ae7c-bf7cd6e74d44",
             "value": "layer_tilemap_get_id(\"Collisions\");"
+        },
+        {
+            "id": "dc385af7-1ecd-4f66-a588-2741579f509e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "8e6377d3-b9ff-443e-b949-ea4e0be85110",
+            "value": "spr_bigmama_walk"
+        },
+        {
+            "id": "e72cfc5c-81da-4cb7-8de7-dce8a8e2f252",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "8646cf09-60ba-45ca-bac2-9027f6c85b49",
+            "value": "spr_bigmama_attack"
+        },
+        {
+            "id": "a10afb43-548f-4f8d-afbd-7895b77ad093",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "d4b0c2d2-8399-4b06-b868-34c9454c7209",
+            "value": "spr_bigmama_walk"
+        },
+        {
+            "id": "ec24030e-3d46-404f-b2a0-1b17326b76a9",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "e90325b0-4b4b-4852-a753-e46b796faaf7",
+            "value": "spr_bigmama_walk"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

@@ -10,5 +10,6 @@ enum ENEMYSTATE {
 	idle,
 	walking,
 	alerted,
-	attacking
+	attacking,
+	melee
 }

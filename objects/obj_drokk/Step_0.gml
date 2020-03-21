@@ -60,7 +60,6 @@ if (!canshoot) {
 
 
 // Check for health
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 
 if(__dnd_health <= 0)
 {

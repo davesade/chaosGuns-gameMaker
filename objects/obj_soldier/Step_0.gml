@@ -2,11 +2,7 @@
 
 switch(state) {
 	case ENEMYSTATE.idle:
-		sprite_index = spr_bigmama_walk
-		image_speed = 0
-		if (collision_circle(x, y, detectionDistance, obj_player, false, true)) {
-			state=ENEMYSTATE.alerted	
-		}
+		scr_enemy_idle()
 	break
 	// TODO: Walking / idling along some PATH from game maker
 	case ENEMYSTATE.walking:
@@ -14,50 +10,15 @@ switch(state) {
 		image_speed = 1
 	break
 	case ENEMYSTATE.alerted:
-		sprite_index = spr_bigmama_walk
-		image_speed = 1
-		image_angle = point_direction(x, y, obj_player.x, obj_player.y)
-		// Walk to player object
-		direction = point_direction(x, y, obj_player.x, obj_player.y)
-		targetX = lengthdir_x(10, direction)
-		targetY = lengthdir_y(10, direction)
-		if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = walkSpeed} else {speed = 0}
-		if (speed == 0) {image_speed = 0}
-		if (distance_to_object(obj_player) < weapon.shotDistance) {
-			state = ENEMYSTATE.attacking
-		}
-		attentionTime += 1
-		if (attentionTime >= maxAttentionTime) {
-			state = ENEMYSTATE.idle
-			attentionTime = 0
-		}
+		scr_enemy_alerted()
 	break
 	case ENEMYSTATE.attacking:
-		if (canshoot) {	
-			if (weapon.clipCapacity > 0) {
-				weapon.clipCapacity -= 1
-				sprite_index = spr_bigmama_attack
-				image_speed = 1
-				speed = 0
-				canshoot = false;
-				scr_shootBullet(self, obj_player.x, obj_player.y)
-			} else {
-				reloading += 1
-				if (reloading >= weapon.reloadTime) {
-					weapon.clipCapacity = weapon.maxClipCapacity
-					reloading = 0
-				}
-			}
-		}
-		state = ENEMYSTATE.alerted
-		// TODO: RELOADING?!
-	
+		scr_enemy_shooting()
 	break
 }
 
 // Weapon cooldown
 if (!canshoot) {
-	state = ENEMYSTATE.alerted
 	currentCooldown += 1
 	if (currentCooldown >= weapon.cooldown) {
 		canshoot = true

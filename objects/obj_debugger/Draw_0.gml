@@ -10,6 +10,6 @@ draw_set_font(font_basic);
 /// @DnDHash : 4823513D
 /// @DnDArgument : "x" "view_current.x"
 /// @DnDArgument : "y" "view_current.y"
-/// @DnDArgument : "caption" ""Ammo: ""
-/// @DnDArgument : "var" "obj_player.weapon.clipCapacity"
-draw_text(view_current.x, view_current.y, string("Ammo: ") + string(obj_player.weapon.clipCapacity));
+/// @DnDArgument : "caption" ""Health: ""
+/// @DnDArgument : "var" "obj_drokk.__dnd_health"
+draw_text(view_current.x, view_current.y, string("Health: ") + string(obj_drokk.__dnd_health));

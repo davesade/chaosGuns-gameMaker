@@ -227,6 +227,34 @@
             "value": "0",
             "varName": "criticalChance",
             "varType": 0
+        },
+        {
+            "id": "3de3c286-a731-4f72-8746-18abc818155c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "meleeDistance",
+            "varType": 0
+        },
+        {
+            "id": "026f3337-a9e0-486f-9b8c-70355d68c74c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "meleeDamage",
+            "varType": 0
         }
     ],
     "solid": false,

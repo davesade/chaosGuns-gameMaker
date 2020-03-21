@@ -15,16 +15,6 @@
             "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
         },
         {
-            "id": "3e641473-b5d4-4d25-9f4c-c616988f29b5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "c1a5d6e1-2ad5-49c4-adef-8134a1ca40f3",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
-        },
-        {
             "id": "53504ed6-43d4-48ec-9e6b-657525743238",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
+        },
+        {
+            "id": "c11d6dd1-10d4-487e-b65c-50ba9200f656",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
             "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
         }
     ],
@@ -92,6 +92,46 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "a5343539-3614-44b0-b371-144f560af73b",
             "value": "600"
+        },
+        {
+            "id": "088fe21d-5365-469a-8e9c-271fd4df7120",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "8e6377d3-b9ff-443e-b949-ea4e0be85110",
+            "value": "spr_zombie_walk"
+        },
+        {
+            "id": "5e46eb4a-91a4-4846-8c7e-5a0b519bc838",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "d4b0c2d2-8399-4b06-b868-34c9454c7209",
+            "value": "spr_zombie_melee"
+        },
+        {
+            "id": "2a9d897a-a778-4828-bd39-130fc5605f79",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "e90325b0-4b4b-4852-a753-e46b796faaf7",
+            "value": "spr_zombie_meleeHB"
+        },
+        {
+            "id": "a3311c41-5c90-4832-981e-8704dc6d312b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "2883c5df-a419-4c41-ba46-c322732a65a5",
+            "value": "10"
+        },
+        {
+            "id": "e3bf6552-15c5-4096-a6ad-14a7a5a459a2",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "0ea70333-6f9a-4e73-9818-b3a03bb40a96",
+            "value": "15"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

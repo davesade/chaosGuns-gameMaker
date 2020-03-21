@@ -2,7 +2,7 @@
     "id": "c8495c28-3a61-46ba-84a9-b076d6434e42",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player",
+    "name": "obj_drokk",
     "eventList": [
         {
             "id": "abe73354-2aeb-42bb-ba0a-28bd32600ccb",
@@ -128,6 +128,54 @@
             "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
             "propertyId": "678cd54e-3bfc-46d3-816f-9a38b736c1f4",
             "value": "0"
+        },
+        {
+            "id": "77fa27a5-90b8-4409-acff-de302e7a9540",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "289c2e71-1ab9-4cca-a6de-4f5098263ac9",
+            "value": "spr_drokk_walk"
+        },
+        {
+            "id": "fdc67c6b-5525-4a5b-9813-a03adbabca0f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "2697ae66-65b4-4625-b623-a87f827fd366",
+            "value": "spr_drokk_attack"
+        },
+        {
+            "id": "e7e0e173-cb0a-4caa-8c84-d1aa8580d05f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "77964d2a-e531-4b75-be87-c6453cc760e3",
+            "value": "spr_drokk_melee"
+        },
+        {
+            "id": "32f341a7-bb4c-462d-b924-c7e970b5e1f0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "2db5b4a5-fc01-4d65-99db-a2dc354f8f97",
+            "value": "spr_drokk_meleeHB"
+        },
+        {
+            "id": "c52ff2ea-7244-44b5-a664-3e79b6a72a17",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "0d2b6b83-771a-4c9a-958c-e4a188160a49",
+            "value": "50"
+        },
+        {
+            "id": "353ece81-a767-453d-b514-e048acc3e9d9",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "adecde32-c6ab-4677-b580-5c934266553c",
+            "value": "30"
         }
     ],
     "parentObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",

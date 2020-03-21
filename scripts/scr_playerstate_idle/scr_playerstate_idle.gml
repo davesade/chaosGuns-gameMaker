@@ -1,4 +1,4 @@
-sprite_index = spr_drokk_walk
+sprite_index = sprite_idle
 image_speed = 0
 // Intended game mechanics - to reload, you have to wait in idle state - cannot reload when walking - subject of change?
 if (weapon.maxClipCapacity > weapon.clipCapacity) {
