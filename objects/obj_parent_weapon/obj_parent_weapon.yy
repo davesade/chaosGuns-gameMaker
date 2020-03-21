@@ -255,6 +255,34 @@
             "value": "0",
             "varName": "meleeDamage",
             "varType": 0
+        },
+        {
+            "id": "16a6d09c-825f-4580-9974-493d3a905048",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "bullet_sprite",
+            "varType": 5
+        },
+        {
+            "id": "f0cd7a36-025c-45c3-8af1-abe88e4c5da9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "clip_sprite",
+            "varType": 4
         }
     ],
     "solid": false,

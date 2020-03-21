@@ -293,6 +293,20 @@
             "value": " ds_list_create()",
             "varName": "hitList",
             "varType": 4
+        },
+        {
+            "id": "600081e2-d6a0-492a-a5e8-c141c9c2a867",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bloodType",
+            "varType": 4
         }
     ],
     "solid": false,

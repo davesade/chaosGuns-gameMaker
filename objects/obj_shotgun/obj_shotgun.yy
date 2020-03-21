@@ -103,6 +103,22 @@
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "14340b41-47c9-460b-8c41-ffa9d5aec859",
             "value": "8"
+        },
+        {
+            "id": "810ee519-e038-48a8-a076-3a3e51edd6cb",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "f0cd7a36-025c-45c3-8af1-abe88e4c5da9",
+            "value": "spr_shotgun_shell"
+        },
+        {
+            "id": "d1377ded-f98c-4baa-a60b-09e6f4231bb0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "16a6d09c-825f-4580-9974-493d3a905048",
+            "value": "spr_small_ammo"
         }
     ],
     "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",

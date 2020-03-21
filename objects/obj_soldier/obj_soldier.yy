@@ -122,6 +122,14 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "e90325b0-4b4b-4852-a753-e46b796faaf7",
             "value": "spr_bigmama_walk"
+        },
+        {
+            "id": "0dc1895c-6aac-49c8-9d42-3cfa3f7fe9a7",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "600081e2-d6a0-492a-a5e8-c141c9c2a867",
+            "value": "spr_blue_blood"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

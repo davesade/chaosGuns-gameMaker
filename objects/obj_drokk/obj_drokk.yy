@@ -176,6 +176,14 @@
             "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
             "propertyId": "adecde32-c6ab-4677-b580-5c934266553c",
             "value": "30"
+        },
+        {
+            "id": "24fe58ab-f9aa-477f-bd43-de99655ed4fd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "b6dfeaf1-44e0-43f2-a6f1-d6dcdb774e56",
+            "value": "spr_black_blood"
         }
     ],
     "parentObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",

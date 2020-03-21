@@ -283,9 +283,37 @@
             "value": "ds_list_create()",
             "varName": "hitList",
             "varType": 0
+        },
+        {
+            "id": "b6dfeaf1-44e0-43f2-a6f1-d6dcdb774e56",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bloodType",
+            "varType": 5
+        },
+        {
+            "id": "f1246356-7393-4470-914e-a077b3b8a17b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ds_list_create()",
+            "varName": "inventory",
+            "varType": 0
         }
     ],
-    "solid": false,
+    "solid": true,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

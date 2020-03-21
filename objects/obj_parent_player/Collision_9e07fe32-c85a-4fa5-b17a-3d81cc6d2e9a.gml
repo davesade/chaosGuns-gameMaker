@@ -17,10 +17,13 @@ if (!(self.id == other.owner)) {
 	}
 
 	var random_blood = (random_range(5, 10));
-
+	var bloodColor = bloodType
 	repeat(random_blood)
 	{
-		instance_create_layer(x, y, "Instances", obj_blood);
+		var blood = instance_create_layer(x, y, "Instances", obj_parent_blood);
+		with (blood){
+			sprite_index = bloodColor
+		}
 	}
 
 	// Replace this with reduction of bulletHealth!

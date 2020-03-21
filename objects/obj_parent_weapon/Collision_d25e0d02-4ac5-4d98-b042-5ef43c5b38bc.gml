@@ -12,6 +12,8 @@ other.weapon.shotDistance = shotDistance
 other.weapon.bulletSprite = bulletSprite
 other.weapon.damage = damage
 other.weapon.criticalChance = criticalChance
+other.weapon.clip_sprite = clip_sprite
+other.weapon.bullet_sprite = bullet_sprite
 other.reloading = 0
 //other.weapon = self
 instance_destroy()

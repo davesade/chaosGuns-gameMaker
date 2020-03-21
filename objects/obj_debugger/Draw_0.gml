@@ -10,6 +10,6 @@ draw_set_font(font_basic);
 /// @DnDHash : 4823513D
 /// @DnDArgument : "x" "view_current.x"
 /// @DnDArgument : "y" "view_current.y"
-/// @DnDArgument : "caption" ""Health: ""
-/// @DnDArgument : "var" "obj_drokk.__dnd_health"
-draw_text(view_current.x, view_current.y, string("Health: ") + string(obj_drokk.__dnd_health));
+/// @DnDArgument : "caption" ""bullet sprite: ""
+/// @DnDArgument : "var" "obj_drokk.inventory"
+draw_text(view_current.x, view_current.y, string("bullet sprite: ") + string(obj_drokk.inventory));
