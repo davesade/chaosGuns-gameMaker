@@ -25,11 +25,18 @@ if (!(self.id == other.owner)) {
 
 	var targetArmor = armor
 	with(other) {
-		// TODO: In theory we could DECREASE damage of the bullet here, to appear more realistic
+		// Decrease bullet armor to check, if the bullet went trought the body
 		bulletArmor -= targetArmor
 		if (bulletArmor < 0) {
+			if (explosionSize) {
+				scr_explosion(self)
+			}
 			instance_destroy()
 		}
+		// We lower overall travel distance by target's armor
+		__dnd_health -= targetArmor
+		// And also decrease damage of outcoming bullet
+		damage -= targetArmor / 2
 	}
 	
 	// On successful hit set the state of enemy to alerted

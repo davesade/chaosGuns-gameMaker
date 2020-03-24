@@ -13,16 +13,6 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
-        },
-        {
-            "id": "c11d6dd1-10d4-487e-b65c-50ba9200f656",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 12,
-            "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -34,22 +24,6 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "63259a57-65e6-4d7f-99f7-a67b8f0e9de3",
             "value": "0.2"
-        },
-        {
-            "id": "f074dc22-f6d9-4dd8-9802-69b9dd5d6335",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "d7298698-7ecd-48b1-8efd-6abafb7efd1c",
-            "value": "10"
-        },
-        {
-            "id": "8b2c8323-fce4-436b-9f3f-e6ec0954ba24",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "f6430ba1-ecc2-4e66-9647-a30e51d31414",
-            "value": "5"
         },
         {
             "id": "3b704459-f6af-4364-82f3-cc614337c0d7",
@@ -106,14 +80,6 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "e90325b0-4b4b-4852-a753-e46b796faaf7",
             "value": "spr_zombie_meleeHB"
-        },
-        {
-            "id": "a3311c41-5c90-4832-981e-8704dc6d312b",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "2883c5df-a419-4c41-ba46-c322732a65a5",
-            "value": "10"
         },
         {
             "id": "25bb6aae-41eb-4bff-830a-3378fd10b968",

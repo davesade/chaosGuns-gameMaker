@@ -1,6 +1,5 @@
-__dnd_health = real(25);
 
-speed = 1;
+speed = 2;
 
 randomize();
 

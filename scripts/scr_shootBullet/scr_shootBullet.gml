@@ -19,7 +19,7 @@ repeat (weapon.pellets) {
 	// https://www.youtube.com/watch?v=AAyD7wMV1bI&t=716s
 	var gunDirection = point_direction(0, 0, attacker.bulletSpawnOffsetX, attacker.bulletSpawnOffsetY)
 	var gunLenght = point_distance(0, 0, attacker.bulletSpawnOffsetX, attacker.bulletSpawnOffsetY)
-	var lookingAt = point_direction(attacker.x, attacker.y, mouse_x, mouse_y)
+	var lookingAt = point_direction(attacker.x, attacker.y, targetX, targetY)
 	bulletSpawnX = attacker.x + lengthdir_x(gunLenght, lookingAt + gunDirection)
 	bulletSpawnY = attacker.y + lengthdir_y(gunLenght, lookingAt + gunDirection)
 	
@@ -33,6 +33,9 @@ repeat (weapon.pellets) {
 		shotDistance = weapon.shotDistance
 		owner = attacker.id // Set owner of the bullet - whoever shot it
 		bullet_sprite = weapon.bullet_sprite
+		explosionSize = weapon.explosionSize
+		explosionDamage = weapon.explosionDamage
+		explosionBits = weapon.explosionBits
 		event_user(0);
 	}
 }

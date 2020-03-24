@@ -283,6 +283,48 @@
             "value": "0",
             "varName": "clip_sprite",
             "varType": 4
+        },
+        {
+            "id": "2f3fea5f-1c3a-4b22-ac48-8b22e15d6808",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "explosionSize",
+            "varType": 0
+        },
+        {
+            "id": "b27ff60f-ea0e-4f42-ad8f-d1922307da46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "explosionDamage",
+            "varType": 0
+        },
+        {
+            "id": "92dfcfea-3c64-4c44-bf49-fdc6a3151451",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "explosionBits",
+            "varType": 0
         }
     ],
     "solid": false,

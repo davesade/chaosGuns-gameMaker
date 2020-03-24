@@ -11,5 +11,5 @@ draw_set_font(font_basic);
 /// @DnDArgument : "x" "view_current.x"
 /// @DnDArgument : "y" "view_current.y"
 /// @DnDArgument : "caption" ""Reloading: ""
-/// @DnDArgument : "var" "obj_drokk.reloading"
-draw_text(view_current.x, view_current.y, string("Reloading: ") + string(obj_drokk.reloading));
+/// @DnDArgument : "var" "room_persistent"
+draw_text(view_current.x, view_current.y, string("Reloading: ") + string(room_persistent));

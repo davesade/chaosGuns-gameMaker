@@ -16,6 +16,9 @@ other.weapon.meleeDamage = meleeDamage
 other.weapon.criticalChance = criticalChance
 other.weapon.clip_sprite = clip_sprite
 other.weapon.bullet_sprite = bullet_sprite
+other.weapon.explosionSize = explosionSize
+other.weapon.explosionDamage = explosionDamage
+other.weapon.explosionBits = explosionDamage
 other.reloading = 0
 //other.weapon = self
 instance_destroy()

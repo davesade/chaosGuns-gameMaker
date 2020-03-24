@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
+        },
+        {
+            "id": "f32e5f8e-5fa8-4330-a400-8924fe66c451",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -324,6 +334,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "bulletSpawnOffsetY",
+            "varType": 0
+        },
+        {
+            "id": "a831c860-6c74-4845-afec-b0c511b98b9a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "armor",
             "varType": 0
         }
     ],

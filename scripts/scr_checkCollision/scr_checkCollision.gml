@@ -2,21 +2,21 @@ var targetX = argument0
 var targetY = argument1
 var collision_map_id = argument2
 
-var bbox_side
+var bbox_side // Local variable for bounding box
+// As the sprite might be wider than tile we are checking, I'm expanding bbox by 5 px in all directions
 
-//Horizontal
+//Horizontal bounding box selected
 if (targetX > 0) bbox_side = bbox_right; else bbox_side = bbox_left
 
-if (tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_top) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_bottom != 0)
+if (tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_top + 5) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_bottom - 5 != 0)
 {
 	return true
 }
 
-//Vertical
-
+//Vertical bounding box selected
 if (targetY > 0) bbox_side = bbox_bottom; else bbox_side = bbox_top
 
-if (tilemap_get_at_pixel(collision_map_id, bbox_left, bbox_side + targetY) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_right, bbox_side + targetY  != 0)
+if (tilemap_get_at_pixel(collision_map_id, bbox_left + 5, bbox_side + targetY) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_right - 5, bbox_side + targetY  != 0)
 {
 	return true
 }

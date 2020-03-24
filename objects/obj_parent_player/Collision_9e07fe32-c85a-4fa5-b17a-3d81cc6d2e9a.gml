@@ -26,10 +26,12 @@ if (!(self.id == other.owner)) {
 		}
 	}
 
-	// Replace this with reduction of bulletHealth!
-	with(other) instance_destroy();
-	
-	// On successful hit set the state of enemy to alerted
-	state = ENEMYSTATE.alerted;
-
+	var targetArmor = armor
+	with(other) {
+		// TODO: In theory we could DECREASE damage of the bullet here, to appear more realistic
+		bulletArmor -= targetArmor
+		if (bulletArmor < 0) {
+			instance_destroy()
+		}
+	}
 }
