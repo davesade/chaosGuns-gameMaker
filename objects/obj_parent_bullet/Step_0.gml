@@ -32,6 +32,9 @@ if(scr_simpleCollision(x,y,collision_map_id) == 1)
 		damage -= 3
 	}
 	
+	// It's possible that bullet will go trough the target - but the damage should be always above 0
+	if (damage < 0) { damage = 1 }
+	
 	if (bulletArmor < 0) {
 		if (explosionSize) {
 			scr_explosion(self)

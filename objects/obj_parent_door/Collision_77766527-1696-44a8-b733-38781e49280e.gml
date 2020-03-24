@@ -1,4 +1,4 @@
-if (state = DOORSTATE.closed) {
+if (state == DOORSTATE.closed || state == DOORSTATE.closing) {
 	if (scr_checkForKey(other.inventory, unlockKey)) {
 		state = DOORSTATE.opening
 		var item = unlockKey
@@ -8,5 +8,8 @@ if (state = DOORSTATE.closed) {
 				ds_list_delete(inventory, eatId)
 			}
 		}
+	} else if (state == DOORSTATE.closing) {
+		// Player has no key
+		other.__dnd_health -= closingSpeed * 10
 	}
 }

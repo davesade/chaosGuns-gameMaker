@@ -15,14 +15,6 @@
             "objectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",
             "propertyId": "93b2791f-b976-43b1-b07e-807cdbdf8e3e",
             "value": "spr_key"
-        },
-        {
-            "id": "4d29bf3d-cf59-4888-ae0a-ecd7c31a67aa",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",
-            "propertyId": "69898214-3059-4aaa-9322-99f948d32d55",
-            "value": "rama"
         }
     ],
     "parentObjectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",

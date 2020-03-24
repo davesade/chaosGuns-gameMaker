@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "34ca382a-e40c-473f-8739-57bf1eabf955",
+            "Value": {
+                "id": "16135767-f784-41ca-8547-63f1891e8b8d",
+                "resourcePath": "scripts\/scr_flipTheSwitch\/scr_flipTheSwitch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3970746b-e600-4aa8-b197-af9c489cc7c9",
             "Value": {
                 "id": "54c5d941-d35b-42e2-80a6-b2e1c80fad44",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "73847c35-2497-479f-a8ea-4476bd06b72e",
+            "Value": {
+                "id": "b90f5bf8-0487-4ebd-94eb-2e6e0ee45391",
+                "resourcePath": "sprites\/spr_default_switchOff\/spr_default_switchOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7692a290-9f1a-4768-b64a-a9bce18a6544",
             "Value": {
                 "id": "2a2e8df1-9ade-49a8-8765-aeb6a079304d",
@@ -666,7 +682,7 @@
             "Key": "a8454902-de5b-424b-992b-a54e56c238e1",
             "Value": {
                 "id": "73bcca03-1b51-411f-92d4-8a17ba554d5c",
-                "resourcePath": "objects\/obj_door\/obj_door.yy",
+                "resourcePath": "objects\/obj_door_horizontal\/obj_door_horizontal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -708,6 +724,14 @@
                 "id": "eb0d8cb7-e17b-4ae9-a425-2a97bef4e073",
                 "resourcePath": "sprites\/spr_empty_magazine\/spr_empty_magazine.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b58c79f9-58b3-44b0-be9d-ae798a61f9f8",
+            "Value": {
+                "id": "528a3983-60e3-4543-9a89-4a12b5417a50",
+                "resourcePath": "objects\/obj_parent_switch\/obj_parent_switch.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -828,6 +852,14 @@
                 "id": "2425bb0b-cd7a-4ef4-b9c3-500b2ccf9652",
                 "resourcePath": "scripts\/scr_enemy_walking\/scr_enemy_walking.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0925946-12e5-4581-a23b-cb926135ed68",
+            "Value": {
+                "id": "42e91be9-9e28-4a5c-a486-e8e7d7a4e5db",
+                "resourcePath": "sprites\/spr_default_switchOn\/spr_default_switchOn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -985,6 +1017,7 @@
         "c13ddf40-c36c-4f83-a781-f8ca1f18429b",
         "d7a14c5d-e9b0-44df-86b3-0f6bc2c0f0c5",
         "2de3f96b-26a2-4cc0-9500-9f8cbdfe86fd",
+        "34ca382a-e40c-473f-8739-57bf1eabf955",
         "dc4c648d-be07-4af6-b544-351c8da694f3",
         "f9c5f318-7eec-471f-9438-4dd858c30f57",
         "81df5ede-0068-4c1c-9139-f2e0495ed5d5",

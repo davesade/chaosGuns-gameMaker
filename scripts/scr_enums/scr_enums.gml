@@ -22,3 +22,9 @@ enum DOORSTATE {
 	opening,
 	closing
 }
+
+enum SWITCHSTATE {
+	on,
+	off,
+	cooldown
+}

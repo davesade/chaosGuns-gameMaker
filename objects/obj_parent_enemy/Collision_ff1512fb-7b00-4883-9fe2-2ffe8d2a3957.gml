@@ -2,7 +2,6 @@
 // OTHER == the bullet which hits the target
 if (!(self.id == other.owner)) {
 
-	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 	__dnd_health -= other.damage;
 
 	randomize();
@@ -37,6 +36,8 @@ if (!(self.id == other.owner)) {
 		__dnd_health -= targetArmor
 		// And also decrease damage of outcoming bullet
 		damage -= targetArmor / 2
+		// Make sure, that there is always some damage, if bullet survives with armor
+		if damage < 0 { damage = 1 }
 	}
 	
 	// On successful hit set the state of enemy to alerted

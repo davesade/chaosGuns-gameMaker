@@ -15,8 +15,10 @@ repeat(shrapnels)
 	}
 }
 
+// Check if other enemies could hear explosion sound - 1.5 times of damage distance
+scr_enemyHearing(bulletX, bulletY, distance * 1.5)
 
-// This point distance is weird - doesn't seem scalable. I tried circle_area, but it didn't do what I expected
+// This point distance is weird - I tried circle_area, but it didn't do what I expected
 with (obj_parent_player) {
 	if (point_distance(x, y, bulletX, bulletY) < distance) {
 		__dnd_health -= damage

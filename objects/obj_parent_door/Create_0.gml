@@ -1,10 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-//if (state = DOORSTATE.open) {
-	sprite_index = door_sprite
-	originalX = x
-	originalY = y
-//}
+/// @description Store original X and Y
+sprite_index = door_sprite
+// If the door are initialised with DOORSTATE.closed, we have to move original X and Y minus opening values
+if (state == DOORSTATE.closed) {
+	x += openX
+	y += openY
+}
 
-
-
+originalX = x
+originalY = y

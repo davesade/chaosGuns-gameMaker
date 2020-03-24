@@ -1,48 +1,28 @@
 {
-    "id": "0a2e6ded-ea66-482b-a820-6988e897d724",
+    "id": "b58c79f9-58b3-44b0-be9d-ae798a61f9f8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_parent_door",
+    "name": "obj_parent_switch",
     "eventList": [
         {
-            "id": "77766527-1696-44a8-b733-38781e49280e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0a2e6ded-ea66-482b-a820-6988e897d724"
-        },
-        {
-            "id": "ef12e843-18d3-4b90-8248-7e9ee95b2d64",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0a2e6ded-ea66-482b-a820-6988e897d724"
-        },
-        {
-            "id": "f4b7f984-8907-4b07-a9de-d3a52533650a",
+            "id": "783cc0fc-412b-4205-9c8d-d2e6fe914f8d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "0a2e6ded-ea66-482b-a820-6988e897d724"
+            "m_owner": "b58c79f9-58b3-44b0-be9d-ae798a61f9f8"
         },
         {
-            "id": "d2be0ace-218c-41db-8061-c5ac56f96ed2",
+            "id": "a42a75c7-9b41-428f-8e26-70f838dd1860",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "0a2e6ded-ea66-482b-a820-6988e897d724"
+            "eventtype": 4,
+            "m_owner": "b58c79f9-58b3-44b0-be9d-ae798a61f9f8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "1d204bb3-8cf3-404b-b72c-bb8baf0251ec",
+            "id": "3974fb79-aa84-4f5e-ae43-729a81ab5dad",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -73,67 +53,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "name",
-            "varType": 2
-        },
-        {
-            "id": "3cea3bdd-1cc8-4f21-be23-c1f7ad581951",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "spr_door",
-            "varName": "door_sprite",
-            "varType": 0
-        },
-        {
-            "id": "07c40dec-a3f0-481c-8125-d082e936f601",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "openingSpeed",
-            "varType": 0
-        },
-        {
-            "id": "633dae87-63b8-415b-acc0-2d0c8121e976",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.05",
-            "varName": "closingSpeed",
-            "varType": 0
-        },
-        {
-            "id": "310597c5-17be-41ca-80af-77c463102469",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "DOORSTATE.closed",
             "varName": "state",
             "varType": 0
         },
         {
-            "id": "724d6349-e312-4e58-aea9-0f60202c7ef6",
+            "id": "6d1f2c6c-76d2-4de8-ba51-6caa895a03ad",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -142,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "openX",
+            "value": "[\"first\", \"second\"]",
+            "varName": "targetDoors",
             "varType": 0
         },
         {
-            "id": "bf3dd74a-f8b4-4f7d-95b2-d626193ed2d9",
+            "id": "9f44eb26-4b11-40a9-8750-e702a18fba9b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -157,25 +81,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "openY",
+            "varName": "onTime",
             "varType": 0
         },
         {
-            "id": "516e9358-a6c5-4431-ac84-e6ded1b09ae7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "defaultKey",
-            "varName": "unlockKey",
-            "varType": 2
-        },
-        {
-            "id": "e22d0cb4-1b9b-4c99-afaf-e80a4b10a397",
+            "id": "e7e02329-b229-41bb-ae17-092f353a4561",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -185,11 +95,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "openTime",
+            "varName": "offTime",
             "varType": 0
         },
         {
-            "id": "94c6b5b5-0142-40dd-a3f5-b0fedd2adada",
+            "id": "a656dce2-c62f-4f2d-8986-8c4ca49cf630",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -199,11 +109,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "closeTime",
+            "varName": "switchTimer",
             "varType": 0
         },
         {
-            "id": "253a6212-da00-4a3a-96aa-41ae58830a93",
+            "id": "7028a5b7-33c9-4c2c-acc9-d332bf6f308d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -212,12 +122,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "doorTimer",
+            "value": "spr_default_switchOn",
+            "varName": "onSprite",
             "varType": 0
         },
         {
-            "id": "1019faff-8033-436b-a7e0-867dd7da9ddf",
+            "id": "aa9acecf-8ece-448d-a861-889e11fc7f61",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_default_switchOff",
+            "varName": "offSprite",
+            "varType": 0
+        },
+        {
+            "id": "9add6c43-e2cd-4f5d-9b9b-5780a3e32200",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -227,11 +151,39 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "eatsKey",
+            "varName": "onTimer",
             "varType": 3
+        },
+        {
+            "id": "e04f29e3-f972-40ec-a349-606e7e0dc9fb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "targetDoorState",
+            "varType": 4
+        },
+        {
+            "id": "27724663-ff8e-46f4-b3b2-a622aaabb836",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "cooldown",
+            "varType": 0
         }
     ],
-    "solid": true,
-    "spriteId": "58853dbd-634e-4c6f-9b13-b09b318fef84",
+    "solid": false,
+    "spriteId": "d0925946-12e5-4581-a23b-cb926135ed68",
     "visible": true
 }
