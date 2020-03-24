@@ -299,7 +299,7 @@
             "varType": 5
         },
         {
-            "id": "f1246356-7393-4470-914e-a077b3b8a17b",
+            "id": "e7be3083-a888-4196-801b-25dc65231a46",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -308,8 +308,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ds_list_create()",
-            "varName": "inventory",
+            "value": "0",
+            "varName": "bulletSpawnOffsetX",
+            "varType": 0
+        },
+        {
+            "id": "777c8f71-de6a-4c0d-a740-f9878f8a324c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bulletSpawnOffsetY",
             "varType": 0
         }
     ],

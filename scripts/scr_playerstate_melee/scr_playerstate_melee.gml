@@ -17,6 +17,7 @@ if (hits > 0) {
 			with (hitId) {
 				scr_trace(DMG)
 				__dnd_health -= DMG
+				state = ENEMYSTATE.alerted
 			}
 		}
 	}

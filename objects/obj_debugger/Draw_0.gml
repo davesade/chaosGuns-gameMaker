@@ -10,6 +10,6 @@ draw_set_font(font_basic);
 /// @DnDHash : 4823513D
 /// @DnDArgument : "x" "view_current.x"
 /// @DnDArgument : "y" "view_current.y"
-/// @DnDArgument : "caption" ""bullet sprite: ""
-/// @DnDArgument : "var" "obj_drokk.inventory"
-draw_text(view_current.x, view_current.y, string("bullet sprite: ") + string(obj_drokk.inventory));
+/// @DnDArgument : "caption" ""Reloading: ""
+/// @DnDArgument : "var" "obj_drokk.reloading"
+draw_text(view_current.x, view_current.y, string("Reloading: ") + string(obj_drokk.reloading));

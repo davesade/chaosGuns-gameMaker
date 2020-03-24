@@ -3,7 +3,8 @@ enum PLAYERSTATE {
 	walking,
 	shooting,
 	melee,
-	cooldown
+	cooldown,
+	dead
 }
 
 enum ENEMYSTATE {
@@ -11,5 +12,13 @@ enum ENEMYSTATE {
 	walking,
 	alerted,
 	attacking,
-	melee
+	melee,
+	dead
+}
+
+enum DOORSTATE {
+	closed,
+	open,
+	opening,
+	closing
 }

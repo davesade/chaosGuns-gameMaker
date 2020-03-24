@@ -46,7 +46,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "aaa0998f-75b7-47f5-9af2-07eac8b328ef",
-            "value": "1"
+            "value": "10"
         },
         {
             "id": "9e2e382e-f81e-4588-b38b-102b2054aea7",
@@ -122,7 +122,7 @@
         }
     ],
     "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

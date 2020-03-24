@@ -10,16 +10,26 @@ scr_enemyHearing(attacker.x, attacker.y, weapon.hearingDistance)
 
 // Generate actual shot
 repeat (weapon.pellets) {
-	targetX += random_range(-weapon.spreadAngle, weapon.spreadAngle)
-	targetY += random_range(-weapon.spreadAngle, weapon.spreadAngle)
-	targetSpeed += random_range(-(weapon.spreadAngle / 10), (weapon.spreadAngle / 10))
-	var pellet = instance_create_layer(attacker.x, attacker.y, "Bullets", obj_parent_bullet)
+	if (weapon.spreadAngle) {
+		targetX += random_range(-weapon.spreadAngle, weapon.spreadAngle)
+		targetY += random_range(-weapon.spreadAngle, weapon.spreadAngle)
+		targetSpeed += random_range(-(weapon.spreadAngle / 10), (weapon.spreadAngle / 10))
+	}
+	// Correct bullet spawning from tip of the gun
+	// https://www.youtube.com/watch?v=AAyD7wMV1bI&t=716s
+	var gunDirection = point_direction(0, 0, attacker.bulletSpawnOffsetX, attacker.bulletSpawnOffsetY)
+	var gunLenght = point_distance(0, 0, attacker.bulletSpawnOffsetX, attacker.bulletSpawnOffsetY)
+	var lookingAt = point_direction(attacker.x, attacker.y, mouse_x, mouse_y)
+	bulletSpawnX = attacker.x + lengthdir_x(gunLenght, lookingAt + gunDirection)
+	bulletSpawnY = attacker.y + lengthdir_y(gunLenght, lookingAt + gunDirection)
+	
+	var pellet = instance_create_layer(bulletSpawnX, bulletSpawnY, "Bullets", obj_parent_bullet)
 	with (pellet) {
 		targetXX = targetX
 		targetYY = targetY
 		damage = weapon.damage
 		bulletSpeed = targetSpeed
-		bulletHealth = weapon.bulletHealth
+		bulletArmor = weapon.bulletArmor
 		shotDistance = weapon.shotDistance
 		owner = attacker.id // Set owner of the bullet - whoever shot it
 		bullet_sprite = weapon.bullet_sprite

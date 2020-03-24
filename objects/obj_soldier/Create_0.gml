@@ -1,6 +1,5 @@
 
 __dnd_health = real(100);
-canshoot = true
 // NOT HAPPY - to set a weapon I have to create an instance - and put it into map :(
 weapon = instance_create_depth(0, 0, 0, obj_shotgun)
 
@@ -15,5 +14,5 @@ weapon.damage = 1
 //weapon.maxClipCapacity = 8
 // weapon.pellets = 5
 //weapon.reloadTime = 120
-weapon.shotDistance = 50
+weapon.shotDistance = 35
 //weapon.spreadAngle = 6

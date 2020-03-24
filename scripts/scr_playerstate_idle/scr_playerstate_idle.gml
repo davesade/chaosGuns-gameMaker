@@ -33,4 +33,20 @@ if (targetX != 0 || targetY != 0) {
 	}
 }
 
-//if (targetX == 0 && targetY == 0) {state = PLAYERSTATE.idle}
+// Shooting
+var attack;
+attack = mouse_check_button(mb_left);
+if (attack) {
+	if (canshoot) {	
+		if (weapon.clipCapacity > 0) {
+			weapon.clipCapacity -= 1
+			state = PLAYERSTATE.shooting;
+			canshoot = false;
+			// Reloading is reset!
+			reloading = 0
+			scr_shootBullet(self, mouse_x, mouse_y)
+		} else {
+			scr_trace("RELOAD!");
+		}
+	}
+}

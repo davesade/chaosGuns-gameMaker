@@ -53,6 +53,26 @@
             "enumb": 0,
             "eventtype": 12,
             "m_owner": "c8495c28-3a61-46ba-84a9-b076d6434e42"
+        },
+        {
+            "id": "d61cbc15-5862-4001-8152-407088ea172a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 7,
+            "m_owner": "c8495c28-3a61-46ba-84a9-b076d6434e42"
+        },
+        {
+            "id": "60a58e8e-74bc-41ba-8579-85c61f56872a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "c8495c28-3a61-46ba-84a9-b076d6434e42"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -184,10 +204,34 @@
             "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
             "propertyId": "b6dfeaf1-44e0-43f2-a6f1-d6dcdb774e56",
             "value": "spr_black_blood"
+        },
+        {
+            "id": "1d11abc1-449f-401e-9ece-22a37407abdd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "e7be3083-a888-4196-801b-25dc65231a46",
+            "value": "12"
+        },
+        {
+            "id": "6cdd5125-b090-4c99-ad9c-22fa01e3cb0f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "777c8f71-de6a-4c0d-a740-f9878f8a324c",
+            "value": "2"
+        },
+        {
+            "id": "71eeb5b2-2c8b-4ea1-888e-4a1fe6fbc7da",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
+            "propertyId": "9428d6d3-c64c-415f-91d5-aefd10cb50c3",
+            "value": "layer_tilemap_get_id(\"Collisions\");"
         }
     ],
     "parentObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -203,7 +247,7 @@
     "properties": [
         
     ],
-    "solid": false,
+    "solid": true,
     "spriteId": "9c2dbd52-a584-4a1f-9d13-cb1c06a11be1",
     "visible": true
 }

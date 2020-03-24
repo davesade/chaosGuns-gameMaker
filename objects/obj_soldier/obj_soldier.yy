@@ -13,16 +13,6 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
-        },
-        {
-            "id": "dc2918bd-4c87-4217-8e0a-4e9c64bc20ee",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "0e736a68-c004-4f63-af39-54331d8d6cdd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -130,6 +120,38 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "600081e2-d6a0-492a-a5e8-c141c9c2a867",
             "value": "spr_blue_blood"
+        },
+        {
+            "id": "76c8581f-22e7-45c8-ac9f-82c316916bae",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "b4cb1045-07dd-4fdc-bb26-44f311692079",
+            "value": "25"
+        },
+        {
+            "id": "3935419f-0eff-41fb-8559-0c2d34c76035",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "665ded10-8804-439a-9a39-ed873d549972",
+            "value": "10"
+        },
+        {
+            "id": "919a3bce-3707-4c3a-9b12-d27a356dbdf6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "48856291-56e7-49e9-9ae2-197eb582d73a",
+            "value": "-3"
+        },
+        {
+            "id": "65b010ce-1a8f-4b88-9684-d3216d63e02a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "db14362d-49d2-4521-8d34-c12ccd42aa5f",
+            "value": "10"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

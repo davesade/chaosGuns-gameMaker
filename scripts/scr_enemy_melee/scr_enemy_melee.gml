@@ -1,3 +1,7 @@
+// Get interested in the player once again
+attentionTime = 0
+speed = 0
+
 if (sprite_index != sprite_melee) {
 	ds_list_clear(hitList)
 	sprite_index = sprite_melee
@@ -7,7 +11,7 @@ if (sprite_index != sprite_melee) {
 
 mask_index = sprite_melee_hitbox
 
-var DMG = meleeDamage
+var DMG = weapon.meleeDamage
 var hitNow = ds_list_create()
 var hits = instance_place_list(x, y, obj_parent_player, hitNow, false);
 if (hits > 0) {
@@ -25,6 +29,6 @@ if (hits > 0) {
 mask_index = sprite_idle
 
 if (scr_animation_end()) {
-	state = ENEMYSTATE.idle
+	state = ENEMYSTATE.alerted
 	sprite_index = sprite_idle
 }

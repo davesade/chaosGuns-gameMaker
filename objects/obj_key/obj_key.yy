@@ -4,20 +4,28 @@
     "mvc": "1.0",
     "name": "obj_key",
     "eventList": [
-        {
-            "id": "4ebab1f2-96a2-48c5-9dcc-b90e1d7d0d9d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "889ef3e1-a4c7-4996-9882-b6712dad3275"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "e6238bad-ba74-45af-a0bb-aaaff4d84df0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",
+            "propertyId": "93b2791f-b976-43b1-b07e-807cdbdf8e3e",
+            "value": "spr_key"
+        },
+        {
+            "id": "4d29bf3d-cf59-4888-ae0a-ecd7c31a67aa",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",
+            "propertyId": "69898214-3059-4aaa-9322-99f948d32d55",
+            "value": "rama"
+        }
+    ],
+    "parentObjectId": "4c537bcd-5962-4c4f-a00a-21c980fbddc4",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,7 +39,9 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        
+    ],
     "solid": false,
     "spriteId": "6b329019-ede5-47dd-814d-e32ae4ede614",
     "visible": true

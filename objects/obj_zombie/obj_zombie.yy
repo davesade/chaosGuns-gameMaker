@@ -15,16 +15,6 @@
             "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
         },
         {
-            "id": "53504ed6-43d4-48ec-9e6b-657525743238",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
-        },
-        {
             "id": "c11d6dd1-10d4-487e-b65c-50ba9200f656",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -126,20 +116,28 @@
             "value": "10"
         },
         {
-            "id": "e3bf6552-15c5-4096-a6ad-14a7a5a459a2",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
-            "propertyId": "0ea70333-6f9a-4e73-9818-b3a03bb40a96",
-            "value": "15"
-        },
-        {
             "id": "25bb6aae-41eb-4bff-830a-3378fd10b968",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "600081e2-d6a0-492a-a5e8-c141c9c2a867",
             "value": "spr_green_blood"
+        },
+        {
+            "id": "853f8b83-af4f-4c24-9eb5-2c18c6e4fc37",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "b4cb1045-07dd-4fdc-bb26-44f311692079",
+            "value": "2"
+        },
+        {
+            "id": "6fb94b5d-94df-4e12-809d-4b2c794d5b11",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "db14362d-49d2-4521-8d34-c12ccd42aa5f",
+            "value": "5"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

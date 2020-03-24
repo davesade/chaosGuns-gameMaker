@@ -1,10 +1,7 @@
-inventory = argument0
-key = argument1
+var inventory = argument0
+var key = argument1
 
-
-
-
-if (ds_list_find_index(inventory, key)) {
+if (ds_list_find_index(inventory, key) > -1) {
 	return true
 } else {
 	return false

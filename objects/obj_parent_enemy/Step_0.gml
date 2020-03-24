@@ -6,7 +6,7 @@ switch(state) {
 	break
 	// TODO: Walking / idling along some PATH from game maker
 	case ENEMYSTATE.walking:
-		sprite_index = spr_bigmama_walk
+		sprite_index = sprite_idle
 		image_speed = 1
 	break
 	case ENEMYSTATE.alerted:
@@ -14,6 +14,12 @@ switch(state) {
 	break
 	case ENEMYSTATE.attacking:
 		scr_enemy_shooting()
+	break
+	case ENEMYSTATE.melee:
+		scr_enemy_melee()
+	break
+	case ENEMYSTATE.dead:
+		scr_enemy_dead()
 	break
 }
 
@@ -29,7 +35,6 @@ if (!canshoot) {
 // In case the health is below zero, enemy is removed from the game
 // Improve with something more creative
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health < 0)
-{
-	instance_destroy();
+if(__dnd_health < 0) {
+	state = ENEMYSTATE.dead
 }

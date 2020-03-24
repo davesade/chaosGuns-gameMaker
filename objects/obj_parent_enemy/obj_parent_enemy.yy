@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "494a3b31-2be4-4d43-af7e-ccfda5808574"
+        },
+        {
+            "id": "f8815f3e-785c-487e-aec7-68d18b2c994d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "494a3b31-2be4-4d43-af7e-ccfda5808574"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -307,9 +317,93 @@
             "value": "0",
             "varName": "bloodType",
             "varType": 4
+        },
+        {
+            "id": "15133c59-32ef-45bc-a363-f97abc166018",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ds_list_create()",
+            "varName": "inventory",
+            "varType": 0
+        },
+        {
+            "id": "2c955100-1ffd-45b7-8fc6-46fbb58d9ceb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canshoot",
+            "varType": 3
+        },
+        {
+            "id": "b4cb1045-07dd-4fdc-bb26-44f311692079",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "idealDistance",
+            "varType": 0
+        },
+        {
+            "id": "665ded10-8804-439a-9a39-ed873d549972",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bulletSpawnOffsetX",
+            "varType": 0
+        },
+        {
+            "id": "48856291-56e7-49e9-9ae2-197eb582d73a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bulletSpawnOffsetY",
+            "varType": 0
+        },
+        {
+            "id": "db14362d-49d2-4521-8d34-c12ccd42aa5f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "armor",
+            "varType": 0
         }
     ],
-    "solid": false,
+    "solid": true,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
