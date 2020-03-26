@@ -13,10 +13,6 @@ if (targetX != 0 || targetY != 0) {
 	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
 		//state = PLAYERSTATE.walking
 		image_speed = 1
-		if (distance_to_object(obj_parent_enemy) < meleeDistance) { // TODO: Could be replaced with weapon.meleeDistance
-			reloading = 0 // Melee cancels reloading, nasty!
-			state = PLAYERSTATE.melee
-		}
 		x += targetX
 		y += targetY
 	} else {
@@ -33,7 +29,7 @@ if (weapon) {
 	var attack;
 	attack = mouse_check_button(mb_left);
 	if (attack) {
-		if (canshoot) {	
+		if (canshoot && canMelee) {	
 			if (weapon.clipCapacity > 0) {
 				weapon.clipCapacity -= 1
 				state = PLAYERSTATE.shooting;
@@ -44,6 +40,18 @@ if (weapon) {
 			} else {
 				scr_trace("RELOAD!");
 			}
+		}
+	}
+}
+
+// Melee attack only if one hold melee weapon
+if (meleeWeapon) {
+	scr_melee_cooldown()
+	if (canMelee && canshoot) {
+		if (distance_to_object(obj_parent_enemy) < meleeWeapon.meleeDistance) {
+			canMelee = false
+			reloading = 0 // Melee cancels reloading, nasty!
+			state = PLAYERSTATE.melee
 		}
 	}
 }

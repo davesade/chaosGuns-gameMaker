@@ -24,13 +24,13 @@ switch(state) {
 }
 
 // Weapon cooldown
-if (!canshoot) {
-	currentCooldown += 1
-	if (currentCooldown >= weapon.cooldown) {
-		canshoot = true
-		currentCooldown = 0
-	}
-}
+//if (!canshoot) {
+//	currentCooldown += 1
+//	if (currentCooldown >= weapon.cooldown) {
+//		canshoot = true
+//		currentCooldown = 0
+//	}
+//}
 
 // In case the health is below zero, enemy is removed from the game
 // Improve with something more creative

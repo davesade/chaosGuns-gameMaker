@@ -9,7 +9,8 @@
 
 //object_set_persistent(self, 1)
 __dnd_health = 10000
-weapon = instance_create_depth(0, 0, 0, obj_shotgun)
+//weapon = instance_create_depth(0, 0, 0, obj_steyer)
+//weapon.cooldown = 5
 meleeWeapon = instance_create_depth(0, 0, 0, obj_boxer)
 
 inventory = ds_list_create()

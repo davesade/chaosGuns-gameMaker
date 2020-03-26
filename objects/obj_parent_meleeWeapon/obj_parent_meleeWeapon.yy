@@ -115,6 +115,34 @@
             "value": "0",
             "varName": "melee_sprite_HB",
             "varType": 0
+        },
+        {
+            "id": "9856cfb9-b413-48ff-8a4d-e6d967b6323b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "meleeCooldown",
+            "varType": 0
+        },
+        {
+            "id": "4c52e90f-7d7d-4947-932e-a155fc0dddbc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "criticalMultiplier",
+            "varType": 0
         }
     ],
     "solid": false,

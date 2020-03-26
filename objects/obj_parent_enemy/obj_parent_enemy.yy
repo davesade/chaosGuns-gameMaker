@@ -425,9 +425,23 @@
             "value": "0",
             "varName": "meleeWeapon",
             "varType": 0
+        },
+        {
+            "id": "50b45dd7-b4c0-450e-a814-eee70b3d69ee",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bloodSplashSprite",
+            "varType": 0
         }
     ],
-    "solid": true,
+    "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -9,18 +9,18 @@ if (!(self.id == other.owner)) {
 	randomize();
 	
 	// Chance of creating blood puddle
-	blood_puddle = (random_range(0, 1));
+	//blood_puddle = (random_range(0, 1));
 
-	if(blood_puddle <= 0.1)
-	{
-		instance_create_layer(x, y, "Instances", obj_blood_puddle);
-	}
+	//if(blood_puddle <= 0.1)
+	//{
+	//	instance_create_layer(x, y, "Instances", obj_blood_puddle);
+	//}
 
 	var random_blood = (random_range(5, 10));
 	var bloodColor = bloodType
 	repeat(random_blood)
 	{
-		var blood = instance_create_layer(x, y, "Instances", obj_parent_blood);
+		var blood = instance_create_layer(x, y, "blood", obj_parent_blood);
 		with (blood){
 			sprite_index = bloodColor
 		}

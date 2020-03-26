@@ -393,6 +393,34 @@
             "value": "0",
             "varName": "meleeWeapon",
             "varType": 0
+        },
+        {
+            "id": "43abf61a-46a3-416c-9b1a-be5dc696d2ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canMelee",
+            "varType": 3
+        },
+        {
+            "id": "efcdeba2-68e4-404f-bdf8-9bc2897f7e23",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bloodSplashSprite",
+            "varType": 0
         }
     ],
     "solid": false,

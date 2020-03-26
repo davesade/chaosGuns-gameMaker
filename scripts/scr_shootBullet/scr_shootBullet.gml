@@ -36,6 +36,8 @@ repeat (weapon.pellets) {
 		explosionSize = weapon.explosionSize
 		explosionDamage = weapon.explosionDamage
 		explosionBits = weapon.explosionBits
+		criticalChance = weapon.criticalChance
+		criticalMultiplier = weapon.criticalMultiplier
 		event_user(0);
 	}
 }

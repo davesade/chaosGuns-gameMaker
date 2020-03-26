@@ -297,6 +297,48 @@
             "value": "0",
             "varName": "explosionBits",
             "varType": 0
+        },
+        {
+            "id": "db11dd70-400d-4556-ae42-b329057f76f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "explosionDelay",
+            "varType": 0
+        },
+        {
+            "id": "6380c61d-b203-45a9-91a9-70cea006b708",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "singleAmmoClip",
+            "varType": 3
+        },
+        {
+            "id": "2c21e359-e171-4921-bb03-9805b37f3847",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "criticalMultiplier",
+            "varType": 0
         }
     ],
     "solid": false,

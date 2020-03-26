@@ -152,6 +152,14 @@
             "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
             "propertyId": "db14362d-49d2-4521-8d34-c12ccd42aa5f",
             "value": "10"
+        },
+        {
+            "id": "54735d02-b7cb-44b6-b9cd-3bf3700f805b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
+            "propertyId": "50b45dd7-b4c0-450e-a814-eee70b3d69ee",
+            "value": "spr_blood_splash"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

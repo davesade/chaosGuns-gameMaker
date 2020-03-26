@@ -30,7 +30,7 @@
             "mvc": "1.0",
             "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
             "propertyId": "3feadcb1-32a5-40a7-b071-53636f4a3e86",
-            "value": "2"
+            "value": "4"
         },
         {
             "id": "45ac274d-4030-475b-b445-071a2d81090a",
@@ -39,6 +39,14 @@
             "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
             "propertyId": "5d94f58e-cef1-4ca3-9882-d6ce28b8dbba",
             "value": "Boxer"
+        },
+        {
+            "id": "631863b2-9253-415b-8cf6-8293e27fd6a4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "9856cfb9-b413-48ff-8a4d-e6d967b6323b",
+            "value": "60"
         }
     ],
     "parentObjectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
