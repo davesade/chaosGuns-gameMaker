@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "defaultKey",
+            "value": "obj_default_key",
             "varName": "itemName",
             "varType": 2
         },

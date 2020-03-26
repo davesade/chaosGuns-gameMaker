@@ -54,6 +54,38 @@
             "x": 320,
             "y": 416,
             "speed": 100
+        },
+        {
+            "id": "f926758a-b638-4bde-ac1d-68a98c837e78",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 96,
+            "y": 224,
+            "speed": 100
+        },
+        {
+            "id": "b1680807-fde3-43a6-a166-d5f1e2c4587f",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 224,
+            "speed": 100
+        },
+        {
+            "id": "4bf60a12-0316-439b-9070-2424266f85d7",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 224,
+            "speed": 100
+        },
+        {
+            "id": "bf550a43-dccd-46be-a021-cd4c997d41ad",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 224,
+            "speed": 100
         }
     ],
     "precision": 4,

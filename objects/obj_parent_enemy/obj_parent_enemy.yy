@@ -411,6 +411,20 @@
             "value": "0",
             "varName": "armor",
             "varType": 0
+        },
+        {
+            "id": "a9b1bf72-fbc8-499f-bdc0-49aa4f7af88c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "meleeWeapon",
+            "varType": 0
         }
     ],
     "solid": true,

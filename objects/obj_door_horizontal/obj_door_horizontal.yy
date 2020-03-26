@@ -15,6 +15,14 @@
             "objectId": "0a2e6ded-ea66-482b-a820-6988e897d724",
             "propertyId": "724d6349-e312-4e58-aea9-0f60202c7ef6",
             "value": "32"
+        },
+        {
+            "id": "2605a978-8d7e-4272-a116-8ae09d7df45f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "0a2e6ded-ea66-482b-a820-6988e897d724",
+            "propertyId": "3cea3bdd-1cc8-4f21-be23-c1f7ad581951",
+            "value": "spr_large_door_horizontal"
         }
     ],
     "parentObjectId": "0a2e6ded-ea66-482b-a820-6988e897d724",

@@ -10,15 +10,11 @@ if (canshoot) {
 		image_speed = 1
 		speed = 0
 		canshoot = false;
+		reloading = 0
 		scr_shootBullet(self, obj_parent_player.x, obj_parent_player.y)
 	} else {
-		reloading += 1
 		sprite_index = sprite_idle
 		speed = 0
-		if (reloading >= weapon.reloadTime) {
-			weapon.clipCapacity = weapon.maxClipCapacity
-			reloading = 0
-		}
 	}
 }
 state = ENEMYSTATE.alerted

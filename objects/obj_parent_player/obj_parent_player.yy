@@ -18,10 +18,40 @@
             "id": "f32e5f8e-5fa8-4330-a400-8924fe66c451",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
+        },
+        {
+            "id": "3cf2e6c5-8e7c-415c-b532-de7f51afbd50",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
+        },
+        {
+            "id": "9bd8c85f-4572-4599-873b-00c467e67d2e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
+        },
+        {
+            "id": "b9dbeaca-a460-4fc5-8250-8af2de9fd600",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
             "m_owner": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509"
         }
     ],
@@ -349,9 +379,23 @@
             "value": "0",
             "varName": "armor",
             "varType": 0
+        },
+        {
+            "id": "3fe45377-4bd5-4238-89df-3a4191b0464e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "meleeWeapon",
+            "varType": 0
         }
     ],
-    "solid": true,
+    "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

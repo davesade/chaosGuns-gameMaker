@@ -1,7 +1,7 @@
 
-__dnd_health = real(100);
+__dnd_health = real(200);
 // NOT HAPPY - to set a weapon I have to create an instance - and put it into map :(
-weapon = instance_create_depth(0, 0, 0, obj_shotgun)
+weapon = instance_create_depth(0, 0, 0, obj_steyer)
 
 // But I can update values on create!
 

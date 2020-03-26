@@ -1,3 +1,4 @@
+//other.weapon = 1
 other.weapon.name = name
 other.weapon.cooldown = cooldown
 other.weapon.hearingDistance = hearingDistance
@@ -9,10 +10,8 @@ other.weapon.bulletArmor = bulletArmor
 other.weapon.bulletSpeed = bulletSpeed
 other.weapon.pellets = pellets
 other.weapon.shotDistance = shotDistance
-other.weapon.meleeDistance = meleeDistance
 other.weapon.bulletSprite = bulletSprite
 other.weapon.damage = damage
-other.weapon.meleeDamage = meleeDamage
 other.weapon.criticalChance = criticalChance
 other.weapon.clip_sprite = clip_sprite
 other.weapon.bullet_sprite = bullet_sprite
@@ -20,5 +19,5 @@ other.weapon.explosionSize = explosionSize
 other.weapon.explosionDamage = explosionDamage
 other.weapon.explosionBits = explosionDamage
 other.reloading = 0
-//other.weapon = self
+
 instance_destroy()

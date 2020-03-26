@@ -3,7 +3,7 @@ image_angle = point_direction(x, y, obj_parent_player.x, obj_parent_player.y)
 direction = point_direction(x, y, obj_parent_player.x, obj_parent_player.y)
 speed = 0; image_speed = 0
 
-// Only move if the distance is above ideal
+// Only move towards target if the distance is above ideal
 if (distance_to_object(obj_parent_player) >= idealDistance) {
 	// Walk to player object
 	targetX = lengthdir_x(5, direction)
@@ -12,18 +12,22 @@ if (distance_to_object(obj_parent_player) >= idealDistance) {
 }
 
 // If enemy holds a long range weapon, it will go to shooting mode
-if (weapon.shotDistance > 0) {
+if (weapon.shotDistance) {
 	if (distance_to_object(obj_parent_player) < weapon.shotDistance) {
 		state = ENEMYSTATE.attacking
 	}
 }
 
 // In case enemy holds only close range weapon, it will go to melee mode
-if (weapon.meleeDistance > 0) {
+if (meleeWeapon) {
 	if (distance_to_object(obj_parent_player) < weapon.meleeDistance) {
 		state = ENEMYSTATE.melee
 	}
 }
+
+// If there is no attack possibility, we do reloading and cooldown
+scr_reload()
+scr_weapon_cooldown()
 
 // Staying too long in this state without attacking will result lost of interest in player
 attentionTime += 1
