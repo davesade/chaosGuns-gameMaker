@@ -35,6 +35,7 @@ repeat (weapon.pellets) {
 		bulletArmor = weapon.bulletArmor
 		explosionSize = weapon.explosionSize
 		explosionDamage = weapon.explosionDamage
+		explosionDelay = weapon.explosionDelay
 		explosionBits = weapon.explosionBits
 		criticalChance = weapon.criticalChance
 		criticalMultiplier = weapon.criticalMultiplier

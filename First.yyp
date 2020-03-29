@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "06a4e422-129c-4446-90e4-31612b29d003",
-            "Value": {
-                "id": "e7edd519-cdce-4021-96bd-9af6496acd0b",
-                "resourcePath": "objects\/obj_rocket_launcher\/obj_rocket_launcher.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "06c25a8f-5d2c-49d7-9d75-a8bbde61b572",
             "Value": {
                 "id": "26ff5c6a-1906-4fe6-812d-e4c666a224d6",
@@ -107,6 +99,14 @@
             "Value": {
                 "id": "fee3469f-4c49-42c2-870d-d02acf09d2bf",
                 "resourcePath": "sprites\/spr_magnum_ammo\/spr_magnum_ammo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1179b447-9a38-4224-af28-416f0d32b888",
+            "Value": {
+                "id": "d61cd643-f045-48f0-a2ed-5affccd96abb",
+                "resourcePath": "sprites\/spr_empty_clip\/spr_empty_clip.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "213e0624-0fab-4a25-8e5f-d833026e022a",
+            "Value": {
+                "id": "d28e098a-3c0e-4c19-911a-6a422bdd47d0",
+                "resourcePath": "objects\/obj_glock\/obj_glock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22e2e2e2-3185-4cb0-80d3-ff790583a682",
             "Value": {
                 "id": "2fec428c-1e68-489b-abcd-de59ae56fe3a",
@@ -191,10 +199,18 @@
             }
         },
         {
+            "Key": "276868e2-5e4c-4568-9340-20f1b93a3ac8",
+            "Value": {
+                "id": "3aa5e44b-1717-445a-b942-4ceaf695393c",
+                "resourcePath": "sprites\/spr_grenade_box\/spr_grenade_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29a584f9-912e-4044-86c8-168427199efe",
             "Value": {
                 "id": "71f99239-8ef4-4604-bd75-eda32cbaa246",
-                "resourcePath": "objects\/obj_magnum\/obj_magnum.yy",
+                "resourcePath": "objects\/obj_runner\/obj_runner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "3d8f8bb1-c047-412f-93b0-85815e35136f",
+            "Value": {
+                "id": "c36a419d-7c40-45c5-be9e-1bb9ebfc4c34",
+                "resourcePath": "sprites\/spr_grenade_fuse\/spr_grenade_fuse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ec14529-8336-46f7-95f3-fdb0b4061145",
             "Value": {
                 "id": "ef17033f-d553-462c-8b91-c89199631c9a",
@@ -356,14 +380,6 @@
                 "id": "4d391d7b-2864-43a1-ad43-053ccc38a8a4",
                 "resourcePath": "sprites\/spr_naomi\/spr_naomi.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4a4e1313-7f2d-4d38-8843-ae929aad63b2",
-            "Value": {
-                "id": "aa3cabc6-a2e0-4421-9056-16244fb0b3c7",
-                "resourcePath": "objects\/obj_beretta\/obj_beretta.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -535,6 +551,14 @@
             }
         },
         {
+            "Key": "67557b28-12d3-4d80-97f0-7544a1631f70",
+            "Value": {
+                "id": "4f40cd9a-b8f4-4121-a6a2-fcdb52a4b3f7",
+                "resourcePath": "sprites\/sprite51\/sprite51.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67658c78-a14d-41ca-86da-fef1570946a4",
             "Value": {
                 "id": "4ccdfeaa-5cfb-4159-8604-492d06d7e170",
@@ -556,6 +580,14 @@
                 "id": "a1bdbe31-ed62-4a1b-8440-6830105a6bcb",
                 "resourcePath": "tilesets\/tileset2\/tileset2.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "6a2401f2-3697-4c1a-be6c-261da78f97f0",
+            "Value": {
+                "id": "1ff545bf-176b-438e-b65c-fec58072c052",
+                "resourcePath": "sprites\/spr_grenade_launcher\/spr_grenade_launcher.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -847,6 +879,14 @@
             }
         },
         {
+            "Key": "9e7ad04f-355d-4e30-a8c2-9ba2a50fe741",
+            "Value": {
+                "id": "1c520713-ddc1-42c8-beb2-c2c961a29151",
+                "resourcePath": "sprites\/spr_empty_gshot\/spr_empty_gshot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2947c20-5270-4364-b1d5-629d1a5a9abd",
             "Value": {
                 "id": "361490f5-4db6-4f5a-b431-4391878ca14b",
@@ -907,6 +947,14 @@
             "Value": {
                 "id": "73bcca03-1b51-411f-92d4-8a17ba554d5c",
                 "resourcePath": "objects\/obj_door_horizontal\/obj_door_horizontal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ad0bb91d-7f6b-4ce9-aff5-c852ec6bf374",
+            "Value": {
+                "id": "11adaf0c-6229-4c34-ae3d-e3cc8adbef27",
+                "resourcePath": "objects\/obj_rocket_launcher\/obj_rocket_launcher.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -988,6 +1036,14 @@
                 "id": "c77b1afb-d99a-444a-9ee7-5a9f0f6a06eb",
                 "resourcePath": "objects\/obj_empty_shell\/obj_empty_shell.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b97b0148-6577-4483-98de-2f23f0e4b001",
+            "Value": {
+                "id": "7fc85b04-a299-4a17-8031-6a7183f1ded2",
+                "resourcePath": "sprites\/spr_grenade\/spr_grenade.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1091,6 +1147,14 @@
             "Value": {
                 "id": "14b291e0-2446-4de0-ae46-97b265a0637a",
                 "resourcePath": "objects\/obj_steyer\/obj_steyer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8b40017-58d7-442b-8f6f-05412189d10f",
+            "Value": {
+                "id": "8db2c99f-44a6-4545-8113-fd71352ea665",
+                "resourcePath": "objects\/obj_grenade_launcher\/obj_grenade_launcher.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1287,6 +1351,14 @@
             }
         },
         {
+            "Key": "f6585e63-315e-48e4-90de-ddf33500d5bc",
+            "Value": {
+                "id": "98a11b4f-a2c6-49b0-81a6-461e23bf3125",
+                "resourcePath": "objects\/obj_first_key\/obj_first_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f7a10d89-5ea3-41bb-bbec-072f70fddae1",
             "Value": {
                 "id": "e1fc1a83-6618-409f-9dbf-9a4b88a46d8b",
@@ -1311,10 +1383,10 @@
             }
         },
         {
-            "Key": "fa087c82-87e5-4f11-b9f8-1a998691bcc1",
+            "Key": "fb189609-5d8f-4500-a0c7-b818eeeb2103",
             "Value": {
-                "id": "d4748230-fe25-49f8-a425-e0f4896c3af6",
-                "resourcePath": "objects\/obj_pistol\/obj_pistol.yy",
+                "id": "43cc5c0b-8552-4d0c-99a8-53b442244fbf",
+                "resourcePath": "objects\/obj_beretta\/obj_beretta.yy",
                 "resourceType": "GMObject"
             }
         },
