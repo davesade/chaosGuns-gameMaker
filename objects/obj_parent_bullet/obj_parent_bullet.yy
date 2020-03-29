@@ -52,7 +52,48 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "0dcd654e-98dc-456f-a792-783457e4ef96",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "e6675edf-0983-4e2b-bdc3-8ddb7da1d459",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sourceX",
+            "varType": 0
+        },
+        {
+            "id": "190daf98-4ff8-43a5-a599-e992864b154b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sourceY",
+            "varType": 0
+        }
     ],
     "solid": false,
     "spriteId": "e72d02ea-027b-453b-a5f1-228e05246ba9",

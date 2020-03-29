@@ -170,9 +170,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "defaultKey",
+            "value": "obj_default_key",
             "varName": "unlockKey",
-            "varType": 2
+            "varType": 5
         },
         {
             "id": "e22d0cb4-1b9b-4c99-afaf-e80a4b10a397",

@@ -10,7 +10,7 @@ repeat(shrapnels)
 {
 	shrapnel = instance_create_layer(x , y , "Instances", obj_explosion);
 	with (shrapnel) {
-		__dnd_health = distance
+		hp = distance
 		event_user(0);
 	}
 }
@@ -21,13 +21,13 @@ scr_enemyHearing(bulletX, bulletY, distance * 1.5)
 // This point distance is weird - I tried circle_area, but it didn't do what I expected
 with (obj_parent_player) {
 	if (point_distance(x, y, bulletX, bulletY) < distance) {
-		__dnd_health -= damage
+		hp -= damage
 	}
 }
 
 with (obj_parent_enemy) {
 	if (point_distance(x, y, bulletX, bulletY) < distance) {
-		__dnd_health -= damage
-		state = ENEMYSTATE.alerted
+		hp -= damage
+		state = STATE.alerted
 	}
 }

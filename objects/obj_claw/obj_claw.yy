@@ -9,47 +9,47 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "c85e53f9-a967-46b1-835e-270d80cde06d",
+            "id": "f5c591b4-fbe0-45bc-b71b-40b57916edf7",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "d5cbf6be-4964-4c93-bbfe-e305a757e201",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "5d94f58e-cef1-4ca3-9882-d6ce28b8dbba",
             "value": "Claw"
         },
         {
-            "id": "a69c5e0b-c3b9-498e-affb-d8a00a597698",
+            "id": "11f57f21-a946-46df-949e-99ae7f92b6ce",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "9b99c731-7a02-43e3-b7ec-712a70b48e05",
-            "value": "50"
-        },
-        {
-            "id": "3e570486-c76f-4921-ba1d-a0d3fcdf985e",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "6ae1cafe-e764-46ff-bc77-d04b987ac782",
-            "value": "0"
-        },
-        {
-            "id": "0d114783-e545-4c43-bc4f-3394ed0b6be6",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "3de3c286-a731-4f72-8746-18abc818155c",
-            "value": "1"
-        },
-        {
-            "id": "0f5eac90-1a5a-4b26-9d2b-ab4bb6a89935",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "026f3337-a9e0-486f-9b8c-70355d68c74c",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "3feadcb1-32a5-40a7-b071-53636f4a3e86",
             "value": "5"
+        },
+        {
+            "id": "a694b86a-c508-479b-a2ad-aa50b599c641",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "9ce1bb99-d2c2-4db9-b0a4-91092233f283",
+            "value": "10"
+        },
+        {
+            "id": "b4e482aa-d044-429a-b30f-d628d72a863a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "c6cba737-cea7-4176-961f-0b48c1385f94",
+            "value": "spr_zombie_meleeHB"
+        },
+        {
+            "id": "0503c826-86ca-47aa-bebb-61caca1e9099",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
+            "propertyId": "9856cfb9-b413-48ff-8a4d-e6d967b6323b",
+            "value": "25"
         }
     ],
-    "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+    "parentObjectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

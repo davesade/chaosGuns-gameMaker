@@ -10,6 +10,6 @@ if (state == DOORSTATE.closed || state == DOORSTATE.closing) {
 		}
 	} else if (state == DOORSTATE.closing) {
 		// Player has no key
-		other.__dnd_health -= closingSpeed * 10
+		other.hp -= closingSpeed * 10
 	}
 }

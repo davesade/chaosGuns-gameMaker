@@ -1,2 +1,2 @@
-__dnd_health = 100;
-weapon = instance_create_depth(0, 0, 0, obj_claw)
+// @Description Inherit states from parent Create event for this player character
+event_inherited();

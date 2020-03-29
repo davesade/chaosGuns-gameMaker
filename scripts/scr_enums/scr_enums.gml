@@ -1,19 +1,11 @@
-enum PLAYERSTATE {
-	idle,
-	walking,
-	shooting,
-	melee,
-	cooldown,
-	dead
-}
-
-enum ENEMYSTATE {
-	idle,
-	walking,
+enum STATE {
+	free, // Free to any interactivable action.
+	walking, // Following path (good for cutscenes too).
 	alerted,
 	attacking,
 	melee,
-	dead
+	stagger,
+	dead	
 }
 
 enum DOORSTATE {
@@ -27,4 +19,12 @@ enum SWITCHSTATE {
 	on,
 	off,
 	cooldown
+}
+
+// ENUM for teams and friends?
+
+enum TEAM {
+	//army = ["zombie"],
+	//zombie = ["army"],
+	players
 }

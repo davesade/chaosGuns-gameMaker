@@ -8,7 +8,7 @@ var bbox_side // Local variable for bounding box
 //Horizontal bounding box selected
 if (targetX > 0) bbox_side = bbox_right; else bbox_side = bbox_left
 
-if (tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_top + 5) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_bottom - 5 != 0)
+if (tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_top + 1) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_bottom - 1 != 0)
 {
 	return true
 }
@@ -16,7 +16,17 @@ if (tilemap_get_at_pixel(collision_map_id, bbox_side + targetX, bbox_top + 5) !=
 //Vertical bounding box selected
 if (targetY > 0) bbox_side = bbox_bottom; else bbox_side = bbox_top
 
-if (tilemap_get_at_pixel(collision_map_id, bbox_left + 5, bbox_side + targetY) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_right - 5, bbox_side + targetY  != 0)
+if (tilemap_get_at_pixel(collision_map_id, bbox_left + 1, bbox_side + targetY) != 0) || tilemap_get_at_pixel(collision_map_id, bbox_right - 1, bbox_side + targetY  != 0)
 {
 	return true
 }
+
+// Check if in that direction isn't another MOB
+
+if (instance_place(targetX, targetY, obj_parent_mob)){
+	return true
+}
+
+//if (distance_to_object(obj_parent_mob) < 3) {
+//	return true
+//} 

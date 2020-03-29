@@ -13,7 +13,7 @@ repeat (weapon.pellets) {
 	if (weapon.spreadAngle) {
 		targetX += random_range(-weapon.spreadAngle, weapon.spreadAngle)
 		targetY += random_range(-weapon.spreadAngle, weapon.spreadAngle)
-		targetSpeed += random_range(-(weapon.spreadAngle / 10), (weapon.spreadAngle / 10))
+		targetSpeed += random_range(-(weapon.spreadAngle / 20), (weapon.spreadAngle / 20))
 	}
 	// Correct bullet spawning from tip of the gun
 	// https://www.youtube.com/watch?v=AAyD7wMV1bI&t=716s
@@ -27,17 +27,22 @@ repeat (weapon.pellets) {
 	with (pellet) {
 		targetXX = targetX
 		targetYY = targetY
+		sourceX = attacker.x
+		sourceY = attacker.y
+		owner = attacker.id // Set owner of the bullet - whoever shot it
 		damage = weapon.damage
 		bulletSpeed = targetSpeed
 		bulletArmor = weapon.bulletArmor
-		shotDistance = weapon.shotDistance
-		owner = attacker.id // Set owner of the bullet - whoever shot it
-		bullet_sprite = weapon.bullet_sprite
 		explosionSize = weapon.explosionSize
 		explosionDamage = weapon.explosionDamage
 		explosionBits = weapon.explosionBits
 		criticalChance = weapon.criticalChance
 		criticalMultiplier = weapon.criticalMultiplier
+		hp = weapon.shotDistance
+		sprite_index = weapon.bullet_sprite
+		direction = point_direction(x, y, targetXX, targetYY);
+		image_angle = point_direction(x, y, targetXX, targetYY);
+		speed = bulletSpeed
 		event_user(0);
 	}
 }

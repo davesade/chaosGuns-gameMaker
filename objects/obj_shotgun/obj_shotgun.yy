@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "6ae1cafe-e764-46ff-bc77-d04b987ac782",
-            "value": "100"
+            "value": "120"
         },
         {
             "id": "3d3b7ff4-242d-4a5e-ae30-6e99f2928a6e",
@@ -70,7 +70,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "44fa9aa8-3bd6-4490-8bc4-89a3e89b4b0f",
-            "value": "30"
+            "value": "50"
         },
         {
             "id": "ed809187-257b-485f-8618-6ac378a83738",
@@ -78,7 +78,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "e88a39c4-fb61-4d26-95b1-5ba3d6e0a324",
-            "value": "6"
+            "value": "10"
         },
         {
             "id": "fa13609b-4c87-47ff-ab6f-a22cd7eeed06",
@@ -94,7 +94,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "b2c57026-2081-4491-999f-b881d9ddd24f",
-            "value": "10"
+            "value": "5"
         },
         {
             "id": "ee578e60-5c02-4bd6-84fb-64679ee36ca1",
@@ -153,6 +153,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3e0d2cf8-e147-4cf7-8adb-40840f787147",
+    "spriteId": "6bc478dc-f4ce-4d75-b545-a61c67701584",
     "visible": true
 }

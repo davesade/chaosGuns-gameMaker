@@ -18,156 +18,172 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "13a317d5-5bea-4ada-b78a-20830a759483",
+            "id": "f211735e-4d09-4ca6-aef9-3a13b07317d6",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "86df7bda-f359-48c4-bf60-985832d0dd9a",
-            "value": "drokk"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "0e3a78b9-d4c9-4fd6-96ee-c304b1d63b69",
+            "value": "Drokk"
         },
         {
-            "id": "0ef0ff2b-3de5-4452-add9-99b575692fef",
+            "id": "0b58020b-9566-4c0a-8744-7a711075b7b2",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "5701cee7-fda8-4d11-a722-1a0430f79cae",
-            "value": "1"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "59b30c0c-a057-4096-a947-ebc8b0db466b",
+            "value": "1000"
         },
         {
-            "id": "c52d91d9-54cd-4a74-89bf-c4f3b0ae2a4b",
+            "id": "300bf2de-53cb-4b13-90c2-8b585aee0346",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "3d292db6-85b4-4905-8f64-cc48556adf14",
-            "value": "PLAYERSTATE.idle"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "dfc80f8f-becf-49b1-a17a-95782295d5cb",
+            "value": "instance_create_depth(0,0,0, obj_mk3)"
         },
         {
-            "id": "58f1be90-7c5f-479b-815b-bd0346fb85e0",
+            "id": "2cd57598-af64-4993-bcc3-2e6c3a809314",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "cfa2d2d5-7ba7-4aca-80ef-58065a3657fe",
-            "value": "0"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "5879b38e-13b4-465e-8958-1b58f23e8988",
+            "value": "instance_create_depth(0,0,0, obj_boxer)"
         },
         {
-            "id": "7d3cc715-40c5-44a6-8c5e-9614dd7b55eb",
+            "id": "737c2db1-c7cb-4080-b299-0c4029c67987",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "39647bc2-9148-4248-a5d9-e4d8694e4e3f",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "f9921bdb-6edd-4ac0-894c-3db3e8fe596b",
             "value": "100"
         },
         {
-            "id": "005f8d06-501a-4797-84d4-84a5827fe3b0",
+            "id": "c6fa3547-f884-4e9a-9c78-bb8d9687e931",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "5a6d22e0-664f-449a-ba23-a2f9bbd2d430",
-            "value": "0.8"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "e7468298-8f3a-4682-908e-e5b5c31568d0",
+            "value": "50"
         },
         {
-            "id": "afaa2d64-16ff-41f9-8069-24603ee65337",
+            "id": "16e273de-12d7-45b2-990c-0fc06f67b611",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "678cd54e-3bfc-46d3-816f-9a38b736c1f4",
-            "value": "0"
-        },
-        {
-            "id": "77fa27a5-90b8-4409-acff-de302e7a9540",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "289c2e71-1ab9-4cca-a6de-4f5098263ac9",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "e2aa5127-677b-402e-9c7a-852efd729659",
             "value": "spr_drokk_walk"
         },
         {
-            "id": "fdc67c6b-5525-4a5b-9813-a03adbabca0f",
+            "id": "e7a9c0cf-9483-46a0-8e29-20f15e2f51fc",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "2697ae66-65b4-4625-b623-a87f827fd366",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "69e477a0-e158-445d-95d0-cf7f11e9d292",
             "value": "spr_drokk_attack"
         },
         {
-            "id": "e7e0e173-cb0a-4caa-8c84-d1aa8580d05f",
+            "id": "83597caf-605d-4a8e-be0f-607b2d3665c5",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "77964d2a-e531-4b75-be87-c6453cc760e3",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "0992bf07-832d-4286-bcf9-6f7f4096dbf2",
             "value": "spr_drokk_melee"
         },
         {
-            "id": "32f341a7-bb4c-462d-b924-c7e970b5e1f0",
+            "id": "54fac841-02b7-4eec-a67a-87268e388ff9",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "2db5b4a5-fc01-4d65-99db-a2dc354f8f97",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
             "value": "spr_drokk_meleeHB"
         },
         {
-            "id": "c52ff2ea-7244-44b5-a664-3e79b6a72a17",
+            "id": "e7c8d5f2-33a9-4e1f-a976-acced06aa2c4",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "0d2b6b83-771a-4c9a-958c-e4a188160a49",
-            "value": "1"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "4d6aebde-4d7d-41f7-8a27-59c3aab45289",
+            "value": "spr_blood"
         },
         {
-            "id": "353ece81-a767-453d-b514-e048acc3e9d9",
+            "id": "8be3ed7c-dd38-47ef-97fb-f2437192132a",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "adecde32-c6ab-4677-b580-5c934266553c",
-            "value": "1"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "f855ae28-a716-4821-bcd8-9ab238474104",
+            "value": "spr_blood_splash"
         },
         {
-            "id": "24fe58ab-f9aa-477f-bd43-de99655ed4fd",
+            "id": "c2075da3-f79d-49ea-84c3-85454c915870",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "b6dfeaf1-44e0-43f2-a6f1-d6dcdb774e56",
-            "value": "spr_black_blood"
-        },
-        {
-            "id": "1d11abc1-449f-401e-9ece-22a37407abdd",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "e7be3083-a888-4196-801b-25dc65231a46",
-            "value": "12"
-        },
-        {
-            "id": "6cdd5125-b090-4c99-ad9c-22fa01e3cb0f",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "777c8f71-de6a-4c0d-a740-f9878f8a324c",
-            "value": "2"
-        },
-        {
-            "id": "71eeb5b2-2c8b-4ea1-888e-4a1fe6fbc7da",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "9428d6d3-c64c-415f-91d5-aefd10cb50c3",
-            "value": "layer_tilemap_get_id(\"Collisions\");"
-        },
-        {
-            "id": "e7b363b1-6c87-44df-a78c-8b6041a3ba32",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "a831c860-6c74-4845-afec-b0c511b98b9a",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "812ba4e5-9e7d-4db7-9612-30df9647e099",
             "value": "10"
         },
         {
-            "id": "4bf8b94f-49bf-4931-b2c8-947f91b6d175",
+            "id": "c024f7b6-c6e8-4097-80a9-09853b80db9d",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-            "propertyId": "efcdeba2-68e4-404f-bdf8-9bc2897f7e23",
-            "value": "spr_blood_splash"
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "7b018738-800f-4bdc-b01b-cde7d899cf47",
+            "value": "2"
+        },
+        {
+            "id": "e9b51493-a79f-456b-8666-c9a1ffcf789b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "97a9a957-2c1b-4a45-80d5-91bf1f4078ae",
+            "value": "5"
+        },
+        {
+            "id": "bba9d7dd-9e55-4b9d-b8e5-1c5c3089f3f6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "812ba4e5-9e7d-4db7-9612-30df9647e099",
+            "value": "10"
+        },
+        {
+            "id": "0905b6ce-5b6a-450d-bf81-6972aaab8012",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "7b018738-800f-4bdc-b01b-cde7d899cf47",
+            "value": "1"
+        },
+        {
+            "id": "772b72b3-4a9d-4498-9ea6-d6c857b16318",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "97a9a957-2c1b-4a45-80d5-91bf1f4078ae",
+            "value": "5"
+        },
+        {
+            "id": "8aac1252-3bb8-4020-a931-aa93719e252e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "ae5237cc-e96b-4fc7-8f28-edb0e7adca7f",
+            "value": "0.8"
+        },
+        {
+            "id": "5fb532ca-54c0-4556-8ab8-c7392986181f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "8d331720-5930-4763-9eaa-37d5a56e95a3",
+            "value": "200"
+        },
+        {
+            "id": "dbe8e455-a73a-4d5d-b555-57daffca050e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "ba7a6807-b082-44bf-9e16-4ee02296de0b",
+            "value": "spr_drokk_stagger"
         }
     ],
     "parentObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",

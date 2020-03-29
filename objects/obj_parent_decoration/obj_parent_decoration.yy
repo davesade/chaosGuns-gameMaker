@@ -53,7 +53,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "5000",
-            "varName": "__dnd_health",
+            "varName": "hp",
             "varType": 0
         }
     ],

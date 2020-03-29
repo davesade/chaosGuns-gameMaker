@@ -53,8 +53,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "obj_default_key",
-            "varName": "itemName",
-            "varType": 2
+            "varName": "itemObject",
+            "varType": 5
         },
         {
             "id": "93b2791f-b976-43b1-b07e-807cdbdf8e3e",
@@ -67,7 +67,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "spriteName",
+            "varName": "sprite_item",
             "varType": 0
         }
     ],

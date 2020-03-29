@@ -10,7 +10,6 @@ other.weapon.bulletArmor = bulletArmor
 other.weapon.bulletSpeed = bulletSpeed
 other.weapon.pellets = pellets
 other.weapon.shotDistance = shotDistance
-other.weapon.bulletSprite = bulletSprite
 other.weapon.damage = damage
 other.weapon.criticalChance = criticalChance
 other.weapon.criticalMultiplier = criticalMultiplier

@@ -173,20 +173,6 @@
             "varType": 0
         },
         {
-            "id": "6e86bd54-227c-4425-9123-2fb2ebfa9f11",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "bulletSprite",
-            "varType": 0
-        },
-        {
             "id": "b2c57026-2081-4491-999f-b881d9ddd24f",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
