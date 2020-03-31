@@ -12,8 +12,9 @@ if (!(id == other.owner)) {
 	hp -= DMG
 	scr_trace("After hit:", id, hp)
 	// Building up stagger on target!
-	stagger += DMG
+	stagger += other.staggerDMG
 	scr_trace("Stagger buildup:", id, stagger)
+	// Throw some random blood around
 	var random_blood = (random_range(5, 10));
 	var bloodColor = sprite_blood
 	repeat(random_blood) {
@@ -22,6 +23,7 @@ if (!(id == other.owner)) {
 	}
 	// Store a direction of the bullet - when staggered, we will push into this direction
 	knockbackDirection = other.direction - 180
+	scr_knockback(DMG, knockbackDirection)
 	var targetArmor = armor
 	// OTHER = bullet
 	with(other) {
@@ -31,6 +33,7 @@ if (!(id == other.owner)) {
 		hp -= targetArmor
 		// And also decrease damage of outcoming bullet
 		damage -= targetArmor / 2
+		staggerDMG -= targetArmor / 2
 		// Make sure, that there is always some damage, if bullet survives with armor
 		if damage < 0 { damage = 1 }
 	}

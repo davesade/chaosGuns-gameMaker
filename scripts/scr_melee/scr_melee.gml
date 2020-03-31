@@ -18,12 +18,14 @@ if (hits > 0) {
 		image_angle = point_direction(x, y, hitId.x, hitId.y)
 		if (ds_list_find_index(hitList, hitId) == -1 ) {
 			var DMG = scr_critical_attack(meleeWeapon)
+			var staggerDMG = meleeWeapon.staggerDMG
 			var hitDirection = point_direction(x, y, hitId.x, hitId.y)
 			ds_list_add(hitList, hitId)
 			with (hitId) {
 				hp -= DMG
-				stagger += DMG
+				stagger += staggerDMG
 				knockbackDirection = hitDirection - 180
+				scr_knockback(DMG, knockbackDirection)
 				// Do not change state, if staggered already
 				if (state == STATE.stagger) state = STATE.stagger else state = STATE.alerted
 			}

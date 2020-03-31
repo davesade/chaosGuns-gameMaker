@@ -11,5 +11,5 @@ event_inherited();
 //weapon.maxClipCapacity = 8
 // weapon.pellets = 5
 //weapon.reloadTime = 120
-//weapon.shotDistance = 35
+weapon.shotDistance = 50
 //weapon.spreadAngle = 6

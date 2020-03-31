@@ -1,4 +1,4 @@
-/// @description Healthbars
+/// @description Healthbars and debug lines
 // You can write your code in this editor
 draw_self();
 
@@ -12,17 +12,16 @@ if (global.debug){
 	
 	if (weapon) {
 		draw_set_colour(c_white);
-		draw_circle(x,y,weapon.hearingDistance, true)
+		draw_circle(x, y, weapon.hearingDistance, true)
 		draw_set_colour(c_red);
-		draw_circle(x,y,weapon.shotDistance, true)
+		draw_circle(x, y, weapon.shotDistance, true)
 	}
 	if (meleeWeapon) {
 		draw_set_colour(c_white);
-		draw_circle(x,y,meleeWeapon.hearingDistance, true)
+		draw_circle(x, y, meleeWeapon.hearingDistance, true)
 		draw_set_colour(c_red);
-		draw_circle(x,y,meleeWeapon.meleeDistance, true)
-		
+		draw_circle(x, y, 2 *meleeWeapon.meleeDistance, true)
 	}
 	draw_set_colour(c_orange);
-	if (detectionDistance) draw_circle(x,y,detectionDistance, true)	
+	if (detectionDistance) draw_circle(x, y, detectionDistance, true)	
 }

@@ -12,7 +12,8 @@
         "4aab31b5-1ef0-4099-b8ab-a4f63ab8d24b",
         "80aab9c8-d04c-4851-9a32-dfc617d85940",
         "60823021-c5dc-4607-b42f-64ece454dd55",
-        "a2cfb4cb-4274-4b81-9d83-ea3115c53f26"
+        "a2cfb4cb-4274-4b81-9d83-ea3115c53f26",
+        "6c38f44c-dbd8-4d91-9b4f-c0c92b587258"
     ],
     "filterType": "GMScript",
     "folderName": "combat",

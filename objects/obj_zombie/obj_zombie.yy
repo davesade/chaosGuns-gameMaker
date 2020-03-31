@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_zombie",
     "eventList": [
-        {
-            "id": "9c8df0c6-c2e2-46cd-9f0b-512451b7a5c0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3163b86c-7f72-4f88-8175-209074a84973"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -151,7 +142,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "8d331720-5930-4763-9eaa-37d5a56e95a3",
-            "value": "500"
+            "value": "75"
         },
         {
             "id": "0f110a23-7abf-4559-b0fa-d5b1d3307fbe",
@@ -167,7 +158,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "e7468298-8f3a-4682-908e-e5b5c31568d0",
-            "value": "240"
+            "value": "120"
         },
         {
             "id": "01d786ef-3ff8-4b12-bc28-02816e154913",

@@ -70,7 +70,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "44fa9aa8-3bd6-4490-8bc4-89a3e89b4b0f",
-            "value": "90"
+            "value": "75"
         },
         {
             "id": "2a9731ef-2fc6-48c6-be8a-1a544d153167",
@@ -135,6 +135,14 @@
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "f0cd7a36-025c-45c3-8af1-abe88e4c5da9",
             "value": "spr_grenade_fuse"
+        },
+        {
+            "id": "59bbc527-03b7-47a6-93b9-e51dcadfadaf",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "1a162be6-f78f-431d-add1-58fbc0db4386",
+            "value": "5"
         }
     ],
     "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",

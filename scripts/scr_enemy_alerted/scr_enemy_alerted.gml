@@ -22,7 +22,7 @@ if (distance_to_object(obj_parent_player) < idealDistance) {
 
 // If enemy holds a long range weapon, it will go to shooting mode
 
-if (weapon) {
+if (weapon > 0) {
 	scr_reload()
 	scr_weapon_cooldown()
 	if (canshoot && weapon.clipCapacity > 0) {
@@ -33,7 +33,7 @@ if (weapon) {
 }
 
 // In case enemy holds only close range weapon, it will go to melee mode
-if (meleeWeapon) {
+if (meleeWeapon > 0) {
 	scr_melee_cooldown()
 	if (canMelee) {
 		if (distance_to_object(obj_parent_player) < meleeWeapon.meleeDistance) {

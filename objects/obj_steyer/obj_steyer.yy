@@ -94,7 +94,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "b2c57026-2081-4491-999f-b881d9ddd24f",
-            "value": "10"
+            "value": "2"
         },
         {
             "id": "f9eca6a8-805b-49be-b66a-fb2ecfe5c937",
@@ -137,24 +137,24 @@
             "value": "True"
         },
         {
-            "id": "a5482bf1-379c-45a4-9229-c937ccac9795",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-            "propertyId": "6e86bd54-227c-4425-9123-2fb2ebfa9f11",
-            "value": "spr_small_ammo"
-        },
-        {
             "id": "895c6d6a-862c-42ea-b4d4-aa017a4a82ca",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "2c21e359-e171-4921-bb03-9805b37f3847",
             "value": "1.2"
+        },
+        {
+            "id": "7e6a1df7-a9b9-434d-9dfd-4bbeb6327e4e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "1a162be6-f78f-431d-add1-58fbc0db4386",
+            "value": "10"
         }
     ],
     "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

@@ -20,10 +20,24 @@ scr_enemyHearing(bulletX, bulletY, distance * 1.5) // Set pointOfInterest
 
 // This point distance is weird - I tried circle_area, but it didn't do what I expected
 with (obj_parent_mob) {
-	if (point_distance(x, y, bulletX, bulletY) < distance) {
+	var realDistance = point_distance(x, y, bulletX, bulletY)
+	if (realDistance < distance) {
 		knockbackDirection = point_direction(x, y, bulletX, bulletY)
+		scr_knockback(damage, knockbackDirection)
+		hp -= (damage / realDistance) * 10
+		stagger += (damage / realDistance) * 10
+	}
+}
+
+// For grenades in range, if hit, imeddiatelly explode
+// Normal bullets might lose some health as well during the way
+// And if bullet == rocket, it will do the both = end the flight and explode
+with (obj_parent_bullet) {
+	var realDistance = point_distance(x, y, bulletX, bulletY)
+	if (realDistance < distance) {
+		knockbackDirection = point_direction(x, y, bulletX, bulletY)
+		scr_knockback(damage, knockbackDirection)
 		hp -= damage
-		// Automatically goes to stagger - is it really a good idea?
-		state = STATE.stagger
+		explosionDelay = -1
 	}
 }

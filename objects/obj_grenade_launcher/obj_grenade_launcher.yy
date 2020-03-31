@@ -22,7 +22,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "9b99c731-7a02-43e3-b7ec-712a70b48e05",
-            "value": "120"
+            "value": "30"
         },
         {
             "id": "828b8863-4491-4e8d-ac13-6863ef79b056",
@@ -70,7 +70,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "44fa9aa8-3bd6-4490-8bc4-89a3e89b4b0f",
-            "value": "110"
+            "value": "90"
         },
         {
             "id": "ef268ff1-6001-4e94-b4ba-ecdd727f8428",
@@ -86,7 +86,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "14340b41-47c9-460b-8c41-ffa9d5aec859",
-            "value": "1"
+            "value": "3"
         },
         {
             "id": "6b1789df-2ed2-4436-be1e-e206d8292076",
@@ -110,7 +110,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "92dfcfea-3c64-4c44-bf49-fdc6a3151451",
-            "value": "20"
+            "value": "10"
         },
         {
             "id": "7e4aa6d8-9a26-476b-89f6-e25de04c4136",
@@ -143,6 +143,22 @@
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "6380c61d-b203-45a9-91a9-70cea006b708",
             "value": "True"
+        },
+        {
+            "id": "06dc38f8-bcd1-44e3-8dc1-e1245a1417a1",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "1a162be6-f78f-431d-add1-58fbc0db4386",
+            "value": "25"
+        },
+        {
+            "id": "0c75a008-4f2b-4d4f-9554-a6867e32fe23",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
+            "propertyId": "aaa0998f-75b7-47f5-9af2-07eac8b328ef",
+            "value": "5"
         }
     ],
     "parentObjectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",

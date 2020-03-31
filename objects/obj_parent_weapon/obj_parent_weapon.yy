@@ -13,12 +13,32 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "88d65184-112f-4b74-8e10-9b89e9483d1d"
+        },
+        {
+            "id": "340dbe3d-5627-4a62-ad8b-b20bb2d287d1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "88d65184-112f-4b74-8e10-9b89e9483d1d"
+        },
+        {
+            "id": "39ad9068-1a04-4fb2-a26c-f65749a62e6a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "88d65184-112f-4b74-8e10-9b89e9483d1d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -58,6 +78,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "cooldown",
+            "varType": 0
+        },
+        {
+            "id": "b2c57026-2081-4491-999f-b881d9ddd24f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "1a162be6-f78f-431d-add1-58fbc0db4386",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "staggerDMG",
             "varType": 0
         },
         {
@@ -173,20 +221,6 @@
             "varType": 0
         },
         {
-            "id": "b2c57026-2081-4491-999f-b881d9ddd24f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "damage",
-            "varType": 0
-        },
-        {
             "id": "14340b41-47c9-460b-8c41-ffa9d5aec859",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -212,6 +246,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "criticalChance",
+            "varType": 0
+        },
+        {
+            "id": "2c21e359-e171-4921-bb03-9805b37f3847",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "criticalMultiplier",
             "varType": 0
         },
         {
@@ -241,6 +289,20 @@
             "value": "0",
             "varName": "clip_sprite",
             "varType": 4
+        },
+        {
+            "id": "6380c61d-b203-45a9-91a9-70cea006b708",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "singleAmmoClip",
+            "varType": 3
         },
         {
             "id": "2f3fea5f-1c3a-4b22-ac48-8b22e15d6808",
@@ -299,7 +361,7 @@
             "varType": 0
         },
         {
-            "id": "6380c61d-b203-45a9-91a9-70cea006b708",
+            "id": "2bca37fd-18b8-45c6-b092-7868e709fa7b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -308,12 +370,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "singleAmmoClip",
-            "varType": 3
+            "value": "layer_tilemap_get_id(\"Collisions\");",
+            "varName": "collision_map_id",
+            "varType": 0
         },
         {
-            "id": "2c21e359-e171-4921-bb03-9805b37f3847",
+            "id": "8d10fdd6-1a61-4385-9c05-e83c466ba479",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -323,8 +385,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "criticalMultiplier",
-            "varType": 0
+            "varName": "pickedUp",
+            "varType": 3
         }
     ],
     "solid": false,

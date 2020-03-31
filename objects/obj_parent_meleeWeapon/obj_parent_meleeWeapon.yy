@@ -13,12 +13,22 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c"
+        },
+        {
+            "id": "c14acad1-912f-4f5b-995a-97e1dd379ce0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -45,6 +55,34 @@
             "value": "\"None\"",
             "varName": "name",
             "varType": 2
+        },
+        {
+            "id": "9ce1bb99-d2c2-4db9-b0a4-91092233f283",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "d750a230-d771-4480-b367-a35de9144139",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "staggerDMG",
+            "varType": 0
         },
         {
             "id": "23959df3-d114-4cc8-b222-a93f46a69fec",
@@ -75,6 +113,20 @@
             "varType": 0
         },
         {
+            "id": "4c52e90f-7d7d-4947-932e-a155fc0dddbc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "criticalMultiplier",
+            "varType": 0
+        },
+        {
             "id": "3feadcb1-32a5-40a7-b071-53636f4a3e86",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -86,20 +138,6 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "meleeDistance",
-            "varType": 0
-        },
-        {
-            "id": "9ce1bb99-d2c2-4db9-b0a4-91092233f283",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "damage",
             "varType": 0
         },
         {
@@ -131,7 +169,7 @@
             "varType": 0
         },
         {
-            "id": "4c52e90f-7d7d-4947-932e-a155fc0dddbc",
+            "id": "3f290183-c91e-489f-8bcb-621454909069",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -141,8 +179,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "criticalMultiplier",
-            "varType": 0
+            "varName": "pickedUp",
+            "varType": 3
         }
     ],
     "solid": false,

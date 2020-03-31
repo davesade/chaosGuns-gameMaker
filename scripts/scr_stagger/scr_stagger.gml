@@ -9,18 +9,3 @@ if (staggerTimer > staggerTime) {
 	state = STATE.alerted
 	return
 }
-
-// Fall back a little
-scr_trace(knockbackDirection, -knockbackDirection)
-
-if (staggerMax mod stagger) {
-	targetX = lengthdir_x(1, knockbackDirection)
-	targetY = lengthdir_y(1, knockbackDirection)
-	if (!scr_checkCollision(targetX, targetY, collision_map_id)) {
-		scr_trace("Does collide?", scr_checkCollision(targetX, targetY, collision_map_id))
-		targetX = lengthdir_x(1, knockbackDirection)
-		targetY = lengthdir_y(1, knockbackDirection)
-		x -= targetX
-		y -= targetY
-	}
-}

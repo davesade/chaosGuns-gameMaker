@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Main door logic
 #region STATE
 // State refresh
 switch(state) {
@@ -26,7 +25,7 @@ switch(state) {
 	case DOORSTATE.opening:
 		x = lerp(x, originalX + openX, openingSpeed)
 		y = lerp(y, originalY + openY, openingSpeed)
-		scr_trace(x,y,originalX + openX, originalY + openY, state)
+		//scr_trace(x,y,originalX + openX, originalY + openY, state)
 		if (round(x) == originalX + openX && round(y) == originalY + openY) {
 			state = DOORSTATE.open
 		}

@@ -22,7 +22,7 @@ repeat (weapon.pellets) {
 	var lookingAt = point_direction(attacker.x, attacker.y, targetX, targetY)
 	bulletSpawnX = attacker.x + lengthdir_x(gunLenght, lookingAt + gunDirection)
 	bulletSpawnY = attacker.y + lengthdir_y(gunLenght, lookingAt + gunDirection)
-	
+	// Create a bullet based on weapon description
 	var pellet = instance_create_layer(bulletSpawnX, bulletSpawnY, "Bullets", obj_parent_bullet)
 	with (pellet) {
 		targetXX = targetX
@@ -31,6 +31,7 @@ repeat (weapon.pellets) {
 		sourceY = attacker.y
 		owner = attacker.id // Set owner of the bullet - whoever shot it
 		damage = weapon.damage
+		staggerDMG = weapon.staggerDMG
 		bulletSpeed = targetSpeed
 		bulletArmor = weapon.bulletArmor
 		explosionSize = weapon.explosionSize
@@ -44,6 +45,5 @@ repeat (weapon.pellets) {
 		direction = point_direction(x, y, targetXX, targetYY);
 		image_angle = point_direction(x, y, targetXX, targetYY);
 		speed = bulletSpeed
-		event_user(0);
 	}
 }

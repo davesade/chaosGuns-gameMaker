@@ -9,6 +9,8 @@ targetX = (input_right - input_left) * characterSpeed
 targetY = (input_down - input_up) * characterSpeed
 
 if (targetX != 0 || targetY != 0) {
+	//var check = (!scr_checkCollision(targetX,targetY,collision_map_id))
+	//scr_trace(check)
 	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
 		image_speed = 1
 		x += targetX
@@ -20,7 +22,7 @@ if (targetX != 0 || targetY != 0) {
 }
 
 // Shooting only if holding actual gun
-if (weapon) {
+if (weapon > 1) {
 	scr_reload()
 	scr_weapon_cooldown()
 	
@@ -33,13 +35,14 @@ if (weapon) {
 			reloading = 0
 			state = STATE.attacking;
 			// Shooting has a priority above melee
+			with (weapon) { event_user(0) }
 			return
 		}
 	}
 }
 
 // Melee attack only if one hold melee weapon
-if (meleeWeapon) {
+if (meleeWeapon > 1) {
 	scr_melee_cooldown()
 	if (canMelee && canshoot) {
 		if (distance_to_object(obj_parent_enemy) < meleeWeapon.meleeDistance) {
