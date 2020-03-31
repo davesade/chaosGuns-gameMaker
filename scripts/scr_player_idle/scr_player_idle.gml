@@ -3,18 +3,18 @@ image_speed = 0
 
 // Set character rotation following the mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y);
-
+direction = point_direction(x, y, mouse_x, mouse_y);
 // Movement - check for collisions
-targetX = (input_right - input_left) * characterSpeed
-targetY = (input_down - input_up) * characterSpeed
+targetX = (input_right - input_left) * 5
+targetY = (input_down - input_up) * 5
 
 if (targetX != 0 || targetY != 0) {
 	//var check = (!scr_checkCollision(targetX,targetY,collision_map_id))
 	//scr_trace(check)
 	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
 		image_speed = 1
-		x += targetX
-		y += targetY
+		x += (input_right - input_left) * characterSpeed
+		y += (input_down - input_up) * characterSpeed
 	} else {
 		targetX = 0
 		targetY = 0

@@ -10,5 +10,5 @@ var firstForest = ds_list_find_value(forrestList, 0)
 ds_list_delete(forrestList, 0);
 var secondForest = ds_list_find_value(forrestList, 0)
 ds_list_delete(forrestList, 0);
-
-ds_list_add(levelList, "vojenska_zakladna", firstForest, "vesnice_a", firstForest, "vojenska_zakladna", secondForest, "oppidum");
+ds_list_add(levelList, "vesnice_a")
+//ds_list_add(levelList, "vojenska_zakladna", firstForest, "vesnice_a", firstForest, "vojenska_zakladna", secondForest, "oppidum");

@@ -31,7 +31,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "59b30c0c-a057-4096-a947-ebc8b0db466b",
-            "value": "200"
+            "value": "300"
         },
         {
             "id": "2cd57598-af64-4993-bcc3-2e6c3a809314",
@@ -167,7 +167,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "8d331720-5930-4763-9eaa-37d5a56e95a3",
-            "value": "200"
+            "value": "300"
         },
         {
             "id": "dbe8e455-a73a-4d5d-b555-57daffca050e",
@@ -195,7 +195,7 @@
         }
     ],
     "parentObjectId": "c3a2e79f-7fa7-49e6-9e38-be7cb3f74509",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

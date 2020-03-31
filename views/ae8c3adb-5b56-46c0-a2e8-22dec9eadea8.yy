@@ -21,7 +21,8 @@
         "ad0bb91d-7f6b-4ce9-aff5-c852ec6bf374",
         "62375e94-050e-4ac1-b5e6-262a592739f2",
         "d895e1c9-0f87-486e-9c1f-604924e35ea8",
-        "f8898106-9c09-443a-bce0-ff5b7ae48d72"
+        "f8898106-9c09-443a-bce0-ff5b7ae48d72",
+        "631329f2-8b9c-4750-8b28-50ee9008e584"
     ],
     "filterType": "GMObject",
     "folderName": "weapons",

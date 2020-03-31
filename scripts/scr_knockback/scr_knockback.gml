@@ -8,12 +8,12 @@ targetY = lengthdir_y(DMG, knockbackDirection)
 	scr_trace("Does collide?", check)
 	
 if (!scr_checkCollision(targetX, targetY, collision_map_id)) {
-	targetX = lengthdir_x(2, knockbackDirection)
-	targetY = lengthdir_y(2, knockbackDirection)
-	//scr_trace("Does collide?", scr_checkCollision(targetX, targetY, collision_map_id))
+	targetX = lengthdir_x(0.1, knockbackDirection)
+	targetY = lengthdir_y(0.1, knockbackDirection)
+	scr_trace("Does collide?", scr_checkCollision(targetX, targetY, collision_map_id))
 	x -= targetX
 	y -= targetY
 } else {
-		targetX = 0
-		targetY = 0
-	}
+	x += targetX
+	y += targetY
+}

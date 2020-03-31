@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_double_shotgun",
     "eventList": [
-        
+        {
+            "id": "3e141b10-66aa-43de-a5be-9f842e0c0401",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "e6881367-8fd9-4fcb-99da-0fe9b4865e67"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -30,7 +39,7 @@
             "mvc": "1.0",
             "objectId": "88d65184-112f-4b74-8e10-9b89e9483d1d",
             "propertyId": "6ae1cafe-e764-46ff-bc77-d04b987ac782",
-            "value": "150"
+            "value": "170"
         },
         {
             "id": "2e96fc24-5424-49bd-a430-c3fe284f2c69",

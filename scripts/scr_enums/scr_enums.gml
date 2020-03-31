@@ -1,6 +1,7 @@
 enum STATE {
 	free, // Free to any interactivable action.
 	walking, // Following path (good for cutscenes too).
+	interested,
 	alerted,
 	attacking,
 	melee,
