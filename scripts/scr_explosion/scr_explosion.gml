@@ -24,8 +24,8 @@ with (obj_parent_mob) {
 	if (realDistance < distance) {
 		knockbackDirection = point_direction(x, y, bulletX, bulletY)
 		scr_knockback(damage, knockbackDirection)
-		hp -= (damage / realDistance) * 10
-		stagger += (damage / realDistance) * 10
+		hp -= (damage / realDistance) * 3
+		stagger += (damage / realDistance) * 3
 	}
 }
 

@@ -40,6 +40,7 @@ repeat (weapon.pellets) {
 		explosionBits = weapon.explosionBits
 		criticalChance = weapon.criticalChance
 		criticalMultiplier = weapon.criticalMultiplier
+		bulletNoise = weapon.bulletNoise
 		hp = weapon.shotDistance
 		sprite_index = weapon.bullet_sprite
 		direction = point_direction(x, y, targetXX, targetYY);

@@ -4,7 +4,7 @@ var doorArmorLevel = 5
 var wallArmorLevel = 10
 // Let's check, if we hit the wall or doors
 #region Collision check
-if(scr_simpleCollision(x,y,collision_map_id) == 1)
+if(scr_simpleCollision(x,y,collision_map_id, bulletNoise))
 {
 	// Make some sparks on the wall
 	randomize();

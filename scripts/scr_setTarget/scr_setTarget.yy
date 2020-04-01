@@ -1,8 +1,8 @@
 {
-    "id": "4509ea3f-52ed-4fb2-8cda-3849bbf94ef8",
+    "id": "832b857f-c3f4-48fa-b4c2-88100af5c2bc",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_enemy_shooting",
+    "name": "scr_setTarget",
     "IsCompatibility": false,
     "IsDnD": false
 }

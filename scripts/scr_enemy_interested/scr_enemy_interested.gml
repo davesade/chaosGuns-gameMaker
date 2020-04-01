@@ -1,25 +1,16 @@
-direction = point_direction(x, y, pointOfInterestX, pointOfInterestY)
-image_angle = direction
-// Try walk in point of interest
+sprite_index = sprite_idle
+speed = 0; image_speed = 0
 
+// SPAWN detection lines and update the state and points of interest based on that
+scr_detectionLines()
+
+direction = scr_setTarget(direction, pointOfInterestX, pointOfInterestY);
+image_angle = direction;
+
+// Try walk in point of interest
 var targetX = lengthdir_x(characterSpeed, direction)
 var targetY = lengthdir_y(characterSpeed, direction)
 if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = characterSpeed; image_speed = 1}
 
-// SPAWN collision lines
-
-for (var i = 0; i < array_length_1d(detectionLines); i++){
-	var targetX = x + lengthdir_x(detectionDistance, direction + detectionLines[i])
-	var targetY = y + lengthdir_y(detectionDistance, direction + detectionLines[i])
-	if (collision_line(x, y, targetX, targetY, obj_parent_player, true, true )) {
-		state = STATE.alerted
-		return
-	}
-	if (collision_line(x, y, targetX, targetY, obj_parent_bullet, true, true )) {
-		pointOfInterestX = targetX
-		pointOfInterestY = targetY
-		state = STATE.interested
-	}
-}
-
+// Losing interest 
 scr_lose_interest()

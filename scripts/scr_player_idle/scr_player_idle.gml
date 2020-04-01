@@ -5,16 +5,16 @@ image_speed = 0
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 direction = point_direction(x, y, mouse_x, mouse_y);
 // Movement - check for collisions
-targetX = (input_right - input_left) * 5
-targetY = (input_down - input_up) * 5
+targetX = (input_right - input_left) * characterSpeed
+targetY = (input_down - input_up) * characterSpeed
 
 if (targetX != 0 || targetY != 0) {
 	//var check = (!scr_checkCollision(targetX,targetY,collision_map_id))
 	//scr_trace(check)
 	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
 		image_speed = 1
-		x += (input_right - input_left) * characterSpeed
-		y += (input_down - input_up) * characterSpeed
+		x += targetX
+		y += targetY
 	} else {
 		targetX = 0
 		targetY = 0

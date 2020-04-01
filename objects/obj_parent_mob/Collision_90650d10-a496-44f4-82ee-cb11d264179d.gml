@@ -24,6 +24,10 @@ if (!(id == other.owner)) {
 	// Store a direction of the bullet - when staggered, we will push into this direction
 	knockbackDirection = other.direction - 180
 	scr_knockback(DMG, knockbackDirection)
+	// Store information about source of shooting
+	pointOfInterestX = other.sourceX
+	pointOfInterestY = other.sourceY
+	// Decrease longevity of the bullet
 	var targetArmor = armor
 	// OTHER = bullet
 	with(other) {
@@ -38,8 +42,7 @@ if (!(id == other.owner)) {
 		if damage < 0 { damage = 1 }
 	}
 	
-	// On successful hit set the state of enemy to alerted
-	state = STATE.alerted;
-	// WORK ON: SOURCEX and SOURCEY for search for probable source of shooting!!! >> pointOfInterest
+	// On successful hit set the state of enemy to interested
+	state = STATE.interested;
 
 }

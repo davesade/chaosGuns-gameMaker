@@ -22,8 +22,7 @@ draw_healthbar(x + -10, y + 20, x + 10, y + 21, stagger, $00000000, $FF0000FF & 
 		draw_set_colour(c_red);
 		draw_circle(x, y, 2 *meleeWeapon.meleeDistance, true)
 	}
-	//draw_set_colour(c_orange);
-	//if (detectionDistance) draw_circle(x, y, detectionDistance, true)
+	draw_text(x,y, state)
 	// Draw detection lines
 	draw_set_colour(c_lime);
 	for (var i = 0; i < array_length_1d(detectionLines); i++){

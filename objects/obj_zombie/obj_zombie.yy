@@ -183,6 +183,22 @@
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "59b30c0c-a057-4096-a947-ebc8b0db466b",
             "value": "75"
+        },
+        {
+            "id": "33ee801d-4cfb-40f1-b2dc-f9c1323c7765",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "34c8a76d-3fa3-4ac7-9b0f-a83c18452b49",
+            "value": "1"
+        },
+        {
+            "id": "a1cf99d9-bcde-4034-83b8-107c9a3528dd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "73ced2fc-a9fd-4965-9d53-4395a431f764",
+            "value": "[0, 15, -15, 30, -30, 60, -60]"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",

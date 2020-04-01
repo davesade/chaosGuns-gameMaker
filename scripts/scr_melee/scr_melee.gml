@@ -7,15 +7,20 @@ if (sprite_index != meleeWeapon.melee_sprite_HB) { // DONT FORGET TO FIX THIS ON
 	image_speed = 1
 }
 
-mask_index = meleeWeapon.melee_sprite_HB //Weapon HitBox only ONLY
+// SPAWN detection lines / update points of interest
+//scr_detectionLines()
 
+mask_index = meleeWeapon.melee_sprite_HB //Weapon HitBox only ONLY
+var sourceX = x
+var sourceY = y
 var hitNow = ds_list_create()
 var hits = instance_place_list(x, y, obj_parent_mob, hitNow, false);
 if (hits > 0) {
 	for (var i = 0; i < hits; ++i;) {
 	    var hitId = hitNow[| i]
 		// Turn character towards enemy! This is good! Point and move around the enemy and the character will keep right distance from attack!
-		image_angle = point_direction(x, y, hitId.x, hitId.y)
+		direction = point_direction(x, y, hitId.x, hitId.y)
+		image_angle = direction
 		if (ds_list_find_index(hitList, hitId) == -1 ) {
 			var DMG = scr_critical_attack(meleeWeapon)
 			var staggerDMG = meleeWeapon.staggerDMG
@@ -26,6 +31,8 @@ if (hits > 0) {
 				stagger += staggerDMG
 				knockbackDirection = hitDirection - 180
 				scr_knockback(DMG, knockbackDirection)
+				pointOfInterestX = sourceX
+				pointOfInterestY = sourceY
 				// Do not change state, if staggered already
 				if (state == STATE.stagger) state = STATE.stagger else state = STATE.alerted
 			}
@@ -34,7 +41,7 @@ if (hits > 0) {
 }
 
 if (scr_animation_end()) {
-	state = STATE.free
+	state = STATE.alerted
 	mask_index = sprite_idle
 	sprite_index = sprite_idle
 }

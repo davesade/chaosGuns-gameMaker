@@ -1,10 +1,11 @@
 sprite_index = sprite_idle
-// Replace obj_parent_player to pointOfInterest.x and pointOfInterest.y
-image_angle = point_direction(x, y, obj_parent_player.x, obj_parent_player.y)
-direction = point_direction(x, y, obj_parent_player.x, obj_parent_player.y)
 speed = 0; image_speed = 0
-// Try walk in point of interest
 
+scr_detectionLines()
+direction = scr_setTarget(direction, pointOfInterestX, pointOfInterestY);
+image_angle = direction;
+
+// Try walk in point of interest
 var targetX = lengthdir_x(characterSpeed, direction)
 var targetY = lengthdir_y(characterSpeed, direction)
 if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = characterSpeed; image_speed = 1}
@@ -14,14 +15,9 @@ if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = characterSpe
 // Target should be defined as "not in my team" variable
 if (distance_to_object(obj_parent_player) < idealDistance) {
 	speed = 0
-	// Walk to target, check if 5 pixels before the sprite ther is no obstacle
-	//targetX = lengthdir_x(5, direction)
-	//targetY = lengthdir_y(5, direction)
-	//if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = characterSpeed; image_speed = 1}
 }
 
 // If enemy holds a long range weapon, it will go to shooting mode
-
 if (weapon > 0) {
 	scr_reload()
 	scr_weapon_cooldown()

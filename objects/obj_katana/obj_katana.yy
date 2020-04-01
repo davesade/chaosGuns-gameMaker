@@ -22,7 +22,7 @@
             "mvc": "1.0",
             "objectId": "8c16fcf8-b1b6-4a3b-88b8-07c2bf875e3c",
             "propertyId": "3feadcb1-32a5-40a7-b071-53636f4a3e86",
-            "value": "15"
+            "value": "12"
         },
         {
             "id": "5943ea39-43b3-418a-92c3-8211168b7818",
@@ -89,6 +89,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "df660eb7-e588-44c7-9f5d-fbb0a359eeb6",
+    "spriteId": "5c036db4-8dd7-403b-847c-92daa1fd647a",
     "visible": true
 }

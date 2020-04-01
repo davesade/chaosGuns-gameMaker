@@ -3,7 +3,7 @@ var sourceY = argument1
 hearDistance = argument2
 
 var _list = ds_list_create(); // This should contain list of "not in my team" objects, to enable multiple teams
-enemies_in_hearing_range = collision_circle_list(sourceX, sourceY, hearDistance, obj_parent_enemy, false, false, _list, false)
+enemies_in_hearing_range = collision_circle_list(sourceX, sourceY, hearDistance, obj_parent_mob, false, false, _list, false)
 if enemies_in_hearing_range > 0
 {
 for (var i = 0; i < enemies_in_hearing_range; ++i;) {
