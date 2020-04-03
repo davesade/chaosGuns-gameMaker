@@ -22,7 +22,7 @@ scr_enemyHearing(bulletX, bulletY, distance * 1.5) // Set pointOfInterest
 with (obj_parent_mob) {
 	var realDistance = point_distance(x, y, bulletX, bulletY)
 	if (realDistance < distance) {
-		knockbackDirection = point_direction(x, y, bulletX, bulletY)
+		knockbackDirection = point_direction(x, y, bulletX, bulletY) // KNOCBACK STATE???
 		scr_knockback(damage, knockbackDirection)
 		hp -= (damage / realDistance) * 3
 		stagger += (damage / realDistance) * 3
@@ -35,7 +35,7 @@ with (obj_parent_mob) {
 with (obj_parent_bullet) {
 	var realDistance = point_distance(x, y, bulletX, bulletY)
 	if (realDistance < distance) {
-		knockbackDirection = point_direction(x, y, bulletX, bulletY)
+		knockbackDirection = point_direction(x, y, bulletX, bulletY) // KNOCBACK STATE???
 		scr_knockback(damage, knockbackDirection)
 		hp -= damage
 		explosionDelay = -1

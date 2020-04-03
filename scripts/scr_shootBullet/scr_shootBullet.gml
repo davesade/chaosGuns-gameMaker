@@ -42,6 +42,7 @@ repeat (weapon.pellets) {
 		criticalMultiplier = weapon.criticalMultiplier
 		bulletNoise = weapon.bulletNoise
 		hp = weapon.shotDistance
+		knockback = weapon.knockback
 		sprite_index = weapon.bullet_sprite
 		direction = point_direction(x, y, targetXX, targetYY);
 		image_angle = point_direction(x, y, targetXX, targetYY);

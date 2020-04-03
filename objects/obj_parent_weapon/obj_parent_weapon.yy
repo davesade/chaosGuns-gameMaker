@@ -401,6 +401,20 @@
             "value": "65",
             "varName": "bulletNoise",
             "varType": 0
+        },
+        {
+            "id": "520115cd-1414-4eef-b37b-851d89976ea7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "knockback",
+            "varType": 0
         }
     ],
     "solid": false,

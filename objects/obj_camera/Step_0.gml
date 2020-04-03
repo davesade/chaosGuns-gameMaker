@@ -1,36 +1,26 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Follows player object, zooming
 
-//var target = obj_parent_player
-//var camW = 640
-//var camH = 240
+if (keyboard_check_pressed(ord("Z"))) {
+	zoom++
+	if (zoom > max_zoom) zoom = 1
+	window_set_size(ideal_width * zoom, ideal_height * zoom)
+	surface_resize(application_surface, ideal_width * zoom, ideal_height * zoom)
+	alarm[0]=1
+}
 
-//var camX = clamp(target.x, camW/2, room_width - camW/2);
-//var camY = clamp(target.y, camH/2, room_height - camH/2);
-//camera_set_view_pos(view_camera[0], camX - camW/2, camY - camH/2);
-//var target = obj_parent_player
+var zoom_speed = 0.1
+if (keyboard_check(vk_up)) view_zoom += zoom_speed
 
-////var viewmat = matrix_build_lookat(800, 450, -10, 800, 450, 0, 0, 1, 0);
-//var viewmat = matrix_build_lookat(target.x, target.y, -10, target.x, target.y, 0, 0, 1, 0);
-//var projmat = matrix_build_projection_ortho(320, 240, 1.0, 32000.0);
-//camera_set_view_mat(view_camera[0], viewmat);
-//camera_set_proj_mat(view_camera[0], projmat);
+if (keyboard_check(vk_down)) view_zoom -= zoom_speed
 
-//camera_set_view_angle(view_camera[0], 1)
-//mainAngle = point_direction(obj_parent_player.x - idealWidth / 2, obj_parent_player.y - idealHeight / 2, mouse_x, mouse_y)
-//camera_set_view_angle(CAMERA, mainAngle)
+view_zoom = clamp(view_zoom, 1, view_max_zoom)
 
-var playersAngle = -obj_parent_player.direction
-var behindX = obj_parent_player.x - idealWidth / 2 + lengthdir_x(50,playersAngle)
-var behindY = obj_parent_player.y - idealHeight / 2 - lengthdir_y(50,playersAngle)
+// View zoom only resizes certain elements of the screen, not whole screen... weird
+surface_resize(application_surface, ideal_width * view_zoom, ideal_height * view_zoom);
 
-camera_set_view_pos(CAMERA, behindX, behindY)
+if instance_exists(obj_parent_player) {
+	var behindX = obj_parent_player.x - ideal_width / 2
+	var behindY = obj_parent_player.y - ideal_height / 2
 
-//camera_set_view_pos(CAMERA, (obj_parent_player.x - idealWidth / 2), (obj_parent_player.y - idealHeight / 2 - 100))
-//camera_set_view_angle(CAMERA, point_direction(obj_parent_player.x, obj_parent_player.y, mouse_x, mouse_y))
-// mainAngle = point_direction(obj_parent_player.x, obj_parent_player.y, mouse_x, mouse_y)
-
-//var view_mat = matrix_build_lookat(obj_parent_player.x, obj_parent_player.y, -10, mouse_x, mouse_y, 0, 0, 1, 0);
-//camera_set_view_mat(CAMERA, view_mat);
-
-//camera_set_view_angle(CAMERA, -obj_parent_player.direction + 90);
+	camera_set_view_pos(CAMERA, behindX, behindY)
+}

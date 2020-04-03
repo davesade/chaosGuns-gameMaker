@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
+var nextLevel = asset_get_index(levelName)
 
-view_enabled = true
-view_visible[0] = true
-
-view_set_camera(0, CAMERA)
+room_goto(nextLevel)

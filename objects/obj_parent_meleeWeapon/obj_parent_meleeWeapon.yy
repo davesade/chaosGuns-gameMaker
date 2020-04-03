@@ -181,6 +181,20 @@
             "value": "0",
             "varName": "pickedUp",
             "varType": 3
+        },
+        {
+            "id": "fe413af1-67a3-4e59-8d63-910684bbc64e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "knockback",
+            "varType": 0
         }
     ],
     "solid": false,

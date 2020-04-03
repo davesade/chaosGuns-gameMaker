@@ -6,8 +6,10 @@ if (diceThrow < weapon.criticalChance) {
 	var DMG = (weapon.criticalMultiplier * weapon.damage);
 	var bloodSploshes = random_range(3, 10)
 	repeat(bloodSploshes) {
-		var dropOffsetX = random_range(-10, 10)
-		var dropOffsetY = random_range(-10, 10)
+		var randomRadius = random_range(0,359)
+		var randomDistance = random_range(0, 20)
+		var dropOffsetX = lengthdir_x(randomDistance,randomRadius)
+		var dropOffsetY = lengthdir_y(randomDistance,randomRadius)
 		var dropSprite = sprite_blood_splush
 		var blood = instance_create_layer(x + dropOffsetX, y + dropOffsetY, "blood", obj_parent_decoration);
 		with (blood){

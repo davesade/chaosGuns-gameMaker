@@ -23,7 +23,7 @@ if (!(id == other.owner)) {
 	}
 	// Store a direction of the bullet - when staggered, we will push into this direction
 	knockbackDirection = other.direction - 180
-	scr_knockback(DMG, knockbackDirection)
+	scr_knockback(other.knockback, knockbackDirection)
 	// Store information about source of shooting
 	pointOfInterestX = other.sourceX
 	pointOfInterestY = other.sourceY
