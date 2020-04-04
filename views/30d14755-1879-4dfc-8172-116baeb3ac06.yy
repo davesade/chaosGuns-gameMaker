@@ -5,6 +5,12 @@
     "name": "30d14755-1879-4dfc-8172-116baeb3ac06",
     "children": [
         "9c2dbd52-a584-4a1f-9d13-cb1c06a11be1",
+        "82d22f63-55b7-420d-ac24-e36c74c76e92",
+        "9ffb229a-2165-4a38-a8bd-722015dbf7b0",
+        "a53f1768-94d0-48ca-b126-dad08d024784",
+        "b64e2e45-f7f1-480b-b3e4-f6d5a0441f8f",
+        "e5640462-35f0-4823-aa6b-c6d1512f0980",
+        "f52ddd62-c748-4fee-8b38-3266938f9a81",
         "d91efb6c-0dab-4213-92d5-025881b95fb8",
         "6cd32830-0987-41f9-9937-1943025c61a6",
         "43486482-a4c6-4397-94ce-71a0d04972f0",
@@ -13,7 +19,12 @@
         "d0259df8-19ba-4bb2-a197-c20743c0dfbb",
         "161cd44d-7a05-4a0e-9503-7ecb1baec35e",
         "33544b77-3995-4bc9-abf4-a8ac56b5dedd",
-        "dc29e27c-1de7-44cf-8a9f-d51df034af30"
+        "dc29e27c-1de7-44cf-8a9f-d51df034af30",
+        "dd0d8cc0-9bc9-4d39-9657-2ecb172b9d0e",
+        "28fb5732-717b-444c-972f-24ea728b2d3c",
+        "fb93259b-3b56-4ec2-92b6-f5f2c2443493",
+        "35ff199a-73b3-4e08-ac5f-b1703f43b6ba",
+        "8727407c-71fd-49d6-9349-ddcd8abe0479"
     ],
     "filterType": "GMSprite",
     "folderName": "player",

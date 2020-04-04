@@ -20,7 +20,8 @@
         "f4fdacdc-e52a-488c-8595-b6d93af22499",
         "da5b68f1-63c2-4b1f-bafd-f6e150e92604",
         "3d8f8bb1-c047-412f-93b0-85815e35136f",
-        "f6eaddb2-f488-4ee5-9f49-1a9142e8c245"
+        "f6eaddb2-f488-4ee5-9f49-1a9142e8c245",
+        "e72d02ea-027b-453b-a5f1-228e05246ba9"
     ],
     "filterType": "GMSprite",
     "folderName": "ammo",

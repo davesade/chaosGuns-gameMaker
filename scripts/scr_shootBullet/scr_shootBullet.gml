@@ -43,9 +43,11 @@ repeat (weapon.pellets) {
 		bulletNoise = weapon.bulletNoise
 		hp = weapon.shotDistance
 		knockback = weapon.knockback
+		sniperShot = weapon.sniperShot
 		sprite_index = weapon.bullet_sprite
 		direction = point_direction(x, y, targetXX, targetYY);
 		image_angle = point_direction(x, y, targetXX, targetYY);
 		speed = bulletSpeed
 	}
 }
+return pellet

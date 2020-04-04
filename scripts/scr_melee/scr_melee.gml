@@ -23,12 +23,13 @@ if (hits > 0) {
 		// ^^ This breaks dynamic camera, will turn it off for now
 		image_angle = direction
 		if (ds_list_find_index(hitList, hitId) == -1 ) {
-			var DMG = scr_critical_attack(meleeWeapon)
+			var weaponOfChoice = meleeWeapon
 			var staggerDMG = meleeWeapon.staggerDMG
 			var knockbackDMG = meleeWeapon.knockback
 			var hitDirection = point_direction(x, y, hitId.x, hitId.y)
 			ds_list_add(hitList, hitId)
 			with (hitId) {
+				var DMG = scr_critical_attack(weaponOfChoice)
 				hp -= DMG
 				stagger += staggerDMG
 				knockbackDirection = hitDirection - 180

@@ -1,3 +1,3 @@
 /// @description Destroy...
 
-camera_destroy(CAMERA)
+//camera_destroy(CAMERA)

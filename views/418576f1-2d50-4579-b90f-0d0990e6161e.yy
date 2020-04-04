@@ -5,6 +5,7 @@
     "name": "418576f1-2d50-4579-b90f-0d0990e6161e",
     "children": [
         "2d357d0b-14b9-4979-ac7c-c4706a4cbab6",
+        "f0edc8f1-710d-4d0e-93a8-d643cd5201d6",
         "403e2409-ae1e-4d9e-993b-1d6e401b1196",
         "df660eb7-e588-44c7-9f5d-fbb0a359eeb6",
         "e8ad8836-762f-4f8a-b8e8-2f106079bb7d",
@@ -23,7 +24,8 @@
         "116d6938-4ef0-489f-ae71-f1c7bf7a1264",
         "4fd4764f-c064-44ab-be76-bdc182f39995",
         "44f62182-16af-4be3-9c9f-2e25197cdc29",
-        "5c036db4-8dd7-403b-847c-92daa1fd647a"
+        "5c036db4-8dd7-403b-847c-92daa1fd647a",
+        "02f0eef6-cd3c-4f9f-998e-66ebb41d0637"
     ],
     "filterType": "GMSprite",
     "folderName": "weapons",

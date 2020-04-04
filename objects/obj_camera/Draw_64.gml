@@ -4,7 +4,8 @@ draw_set_color(c_white)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
-draw_text(5, 5, "Top Left")
+draw_text(5, 5, mouse_x)
+draw_text(5, 15, mouse_y)
 
 draw_set_halign(fa_right)
 draw_set_valign(fa_bottom)

@@ -1,8 +1,9 @@
 /// @description Set camera
+global.debug = true
 // Scaling based on: https://www.youtube.com/watch?v=wv3R2Q536ZU
 ideal_width = 0; //Doesn't matter because we are going to calculate this.
 ideal_height = 256;
-zoom = 1;
+zoom = 3;
 max_zoom = 1;
 view_zoom = 5
 view_max_zoom = 10
@@ -45,16 +46,11 @@ display_set_gui_size(ideal_width,ideal_height);
 window_set_size(ideal_width*zoom,ideal_height*zoom);
 
 // Create camera
-
+globalvar CAMERA;
 CAMERA = camera_create();
 
 camera_set_view_size(CAMERA,ideal_width,ideal_height)
 
-// Enable viewport
-view_enabled = true
-view_visible[0] = true
-
-view_set_camera(0, CAMERA)
 
 // Center window
 alarm[0] = 1

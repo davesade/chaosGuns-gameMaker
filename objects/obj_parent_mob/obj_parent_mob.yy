@@ -418,20 +418,6 @@
             "varType": 0
         },
         {
-            "id": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "sprite_melee_hitbox",
-            "varType": 0
-        },
-        {
             "id": "ba7a6807-b082-44bf-9e16-4ee02296de0b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

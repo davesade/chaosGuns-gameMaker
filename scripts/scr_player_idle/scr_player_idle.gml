@@ -1,9 +1,10 @@
 sprite_index = sprite_idle
 image_speed = 0
 
-// Set character rotation following the mouse
-image_angle = point_direction(x, y, mouse_x, mouse_y);
-direction = point_direction(x, y, mouse_x, mouse_y);
+// Set character rotation following the mouse (from GUI layer)
+image_angle = point_direction(x, y, mouse_x, mouse_y)
+direction = image_angle
+
 // Movement - check for collisions
 targetX = (input_right - input_left) * characterSpeed
 targetY = (input_down - input_up) * characterSpeed
@@ -35,7 +36,6 @@ if (weapon > 1) {
 			reloading = 0
 			state = STATE.attacking;
 			// Shooting has a priority above melee
-			with (weapon) { event_user(0) }
 			return
 		}
 	}

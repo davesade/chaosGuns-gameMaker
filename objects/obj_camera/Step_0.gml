@@ -8,6 +8,11 @@ if (keyboard_check_pressed(ord("Z"))) {
 	alarm[0]=1
 }
 
+if (keyboard_check_pressed(ord("B"))) {
+	if (global.debug == true) global.debug = false else global.debug = true
+}
+
+
 var zoom_speed = 0.1
 if (keyboard_check(vk_up)) view_zoom += zoom_speed
 
@@ -21,6 +26,24 @@ surface_resize(application_surface, ideal_width * view_zoom, ideal_height * view
 if instance_exists(obj_parent_player) {
 	var behindX = obj_parent_player.x - ideal_width / 2
 	var behindY = obj_parent_player.y - ideal_height / 2
+	// Special effect on sniping
+	if (obj_parent_player.weapon.sniperShot) {
+		for (var i = 0; i < instance_number(obj_parent_bullet); ++i;)
+		    {
+		    sniperBullet[i] = instance_find(obj_parent_bullet,i);
+				if (sniperBullet[i].sniperShot && sniperBullet[i].owner == obj_parent_player.id) {
+					behindX = sniperBullet[i].x - ideal_width / 2
+					behindY = sniperBullet[i].y - ideal_height / 2
+				}
+		    }
+	}
 
 	camera_set_view_pos(CAMERA, behindX, behindY)
+}
+
+// Reset the game
+var resetKey
+resetKey = keyboard_check_pressed(ord("R"));
+if (resetKey) {
+	game_restart();
 }

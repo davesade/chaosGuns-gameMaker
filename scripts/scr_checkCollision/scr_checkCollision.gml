@@ -12,7 +12,7 @@ var collision = tilemap_get_at_pixel(collision_map_id, bbox_left, bbox_top) ||
 				tilemap_get_at_pixel(collision_map_id, bbox_right, bbox_bottom) ||
 				tilemap_get_at_pixel(collision_map_id, targetX, targetY)
 				
-if (collision) {
+if (collision == 1 || collision == 2) {
 	return true
 }
 
