@@ -5,16 +5,17 @@ scr_detectionLines()
 direction = scr_setTarget(direction, pointOfInterestX, pointOfInterestY);
 image_angle = direction;
 
-// Try walk in point of interest
-var targetX = lengthdir_x(characterSpeed, direction)
-var targetY = lengthdir_y(characterSpeed, direction)
-if (!scr_checkCollision(targetX,targetY,collision_map_id)) {speed = characterSpeed; image_speed = 1}
+// Movement - check for collisions
+targetX = lengthdir_x(characterSpeed, direction)
+targetY = lengthdir_y(characterSpeed, direction)
 
+var seconds_passed = delta_time / 1000000;
+var move_speed_this_frame = characterSpeed * seconds_passed;
 
 // Only move towards target if the distance is above ideal
-// Target should be defined as "not in my team" variable
-if (distance_to_object(obj_parent_player) < idealDistance) {
-	speed = 0
+if (distance_to_object(obj_parent_player) > idealDistance) {
+	image_speed = 1
+	scr_move(move_speed_this_frame, direction);
 }
 
 // If enemy holds a long range weapon, it will go to shooting mode

@@ -31,7 +31,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "59b30c0c-a057-4096-a947-ebc8b0db466b",
-            "value": "150"
+            "value": "300"
         },
         {
             "id": "2cd57598-af64-4993-bcc3-2e6c3a809314",
@@ -80,14 +80,6 @@
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "0992bf07-832d-4286-bcf9-6f7f4096dbf2",
             "value": "spr_drokk_melee"
-        },
-        {
-            "id": "54fac841-02b7-4eec-a67a-87268e388ff9",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "96504881-668b-42fd-b032-6ec922163845",
-            "propertyId": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
-            "value": "spr_drokk_meleeHB"
         },
         {
             "id": "e7c8d5f2-33a9-4e1f-a976-acced06aa2c4",
@@ -159,7 +151,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "ae5237cc-e96b-4fc7-8f28-edb0e7adca7f",
-            "value": "0.8"
+            "value": "50"
         },
         {
             "id": "5fb532ca-54c0-4556-8ab8-c7392986181f",

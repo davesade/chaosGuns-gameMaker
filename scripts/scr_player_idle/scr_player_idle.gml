@@ -1,26 +1,33 @@
 sprite_index = sprite_idle
 image_speed = 0
 
-// Set character rotation following the mouse (from GUI layer)
+// Set character rotation following the mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y)
 direction = image_angle
 
 // Movement - check for collisions
-targetX = (input_right - input_left) * characterSpeed
-targetY = (input_down - input_up) * characterSpeed
+var seconds_passed = delta_time / 1000000;
+var move_speed_this_frame = characterSpeed * seconds_passed;
 
-if (targetX != 0 || targetY != 0) {
-	//var check = (!scr_checkCollision(targetX,targetY,collision_map_id))
-	//scr_trace(check)
-	if (!scr_checkCollision(targetX,targetY,collision_map_id)) {
-		image_speed = 1
-		x += targetX
-		y += targetY
-	} else {
-		targetX = 0
-		targetY = 0
-	}
+targetX = 0;
+targetY = 0;
+ 
+for ( var i = 0; i < array_length_1d(movement_inputs); i++){
+    var this_key = movement_inputs[i];
+    if keyboard_check(this_key) {
+        var this_angle = i*90;
+        targetX += lengthdir_x(1, this_angle);
+        targetY += lengthdir_y(1, this_angle);
+    }
 }
+ 
+var moving = ( point_distance(0,0,targetX,targetY) > 0 );
+if moving  {
+    var move_dir = point_direction(0,0,targetX,targetY);
+	scr_move(move_speed_this_frame,  move_dir);
+	image_speed = 1
+}
+
 
 // Shooting only if holding actual gun
 if (weapon > 1) {

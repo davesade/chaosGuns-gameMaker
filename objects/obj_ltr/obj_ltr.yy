@@ -82,14 +82,6 @@
             "value": "spr_ltr_melee"
         },
         {
-            "id": "76156bf4-1242-4dec-8a5b-49cba8501b21",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "96504881-668b-42fd-b032-6ec922163845",
-            "propertyId": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
-            "value": "spr_ltr_meleeHB"
-        },
-        {
             "id": "de6c9cce-6fa4-4fa4-b04c-d5e7f6ed0e39",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
@@ -159,7 +151,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "ae5237cc-e96b-4fc7-8f28-edb0e7adca7f",
-            "value": "1"
+            "value": "50"
         },
         {
             "id": "4166a2be-367e-459f-865b-c00e2caa6076",

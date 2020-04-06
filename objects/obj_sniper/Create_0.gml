@@ -1,6 +1,6 @@
 event_inherited();
 // You can change any detailed configuration here!
-weapon = obj_sniper_rifle
+//weapon = obj_sniper_rifle
 
 //weapon.bulletHealth = 1
 //weapon.bulletSpeed = 3
@@ -12,5 +12,5 @@ weapon.hearingDistance = 10
 //weapon.pellets = 5
 //weapon.reloadTime = 120
 //weapon.shotDistance = 1000
-weapon.spreadAngle = 1
+//weapon.spreadAngle = 1
 weapon.bulletSpeed = 20

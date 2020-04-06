@@ -39,6 +39,8 @@ if instance_exists(obj_parent_player) {
 	}
 
 	camera_set_view_pos(CAMERA, behindX, behindY)
+} else {
+	camera_set_view_pos(CAMERA, 0, 0)
 }
 
 // Reset the game

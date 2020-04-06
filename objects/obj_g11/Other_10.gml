@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-if (obj_drokk.bulletSpawnOffsetY == 2) { obj_drokk.bulletSpawnOffsetY = 0 } else { obj_drokk.bulletSpawnOffsetY = 2 }
+if (obj_parent_player.bulletSpawnOffsetY == 2) { obj_parent_player.bulletSpawnOffsetY = 0 } else { obj_parent_player.bulletSpawnOffsetY = 2 }

@@ -22,8 +22,8 @@ if (!(id == other.owner)) {
 		with(blood){sprite_index = bloodColor}
 	}
 	// Store a direction of the bullet - when staggered, we will push into this direction
-	knockbackDirection = other.direction - 180
-	scr_knockback(other.knockback, knockbackDirection)
+	knockbackDirection = other.direction
+	scr_knockback(other.knockback * 2, knockbackDirection)
 	// Store information about source of shooting
 	pointOfInterestX = other.sourceX
 	pointOfInterestY = other.sourceY

@@ -32,7 +32,7 @@ if (hits > 0) {
 				var DMG = scr_critical_attack(weaponOfChoice)
 				hp -= DMG
 				stagger += staggerDMG
-				knockbackDirection = hitDirection - 180
+				knockbackDirection = hitDirection
 				scr_knockback(knockbackDMG, knockbackDirection)
 				pointOfInterestX = sourceX
 				pointOfInterestY = sourceY

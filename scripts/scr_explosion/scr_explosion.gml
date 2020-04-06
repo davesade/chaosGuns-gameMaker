@@ -9,21 +9,24 @@ var bulletY = bullet.y
 repeat(shrapnels)
 {
 	shrapnel = instance_create_layer(x , y , "Bullets", obj_explosion);
+	randomize();
+	var random_dir = floor(random_range(0, 359));
 	with (shrapnel) {
 		hp = distance
-		event_user(0);
+		speed = 2;
+		direction = random_dir;
 	}
 }
 
 // Check if other enemies could hear explosion sound - 1.5 times of damage distance
-scr_enemyHearing(bulletX, bulletY, distance * 1.5) // Set pointOfInterest
+scr_enemyHearing(bulletX, bulletY, 1.5 * distance) // Set pointOfInterest
 
 // This point distance is weird - I tried circle_area, but it didn't do what I expected
 with (obj_parent_mob) {
 	var realDistance = point_distance(x, y, bulletX, bulletY)
 	if (realDistance < distance) {
-		knockbackDirection = point_direction(x, y, bulletX, bulletY) // KNOCBACK STATE???
-		scr_knockback(damage, knockbackDirection)
+		knockbackDirection = point_direction(x, y, bulletX, bulletY) - 180// KNOCKBACK STATE???
+		scr_knockback(damage * 10, knockbackDirection)
 		hp -= (damage / realDistance) * 3
 		stagger += (damage / realDistance) * 3
 	}

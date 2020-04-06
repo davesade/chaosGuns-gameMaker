@@ -82,14 +82,6 @@
             "value": "spr_rachael_melee"
         },
         {
-            "id": "2ddfebf9-3bff-42ca-9246-f4b767c7c662",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "96504881-668b-42fd-b032-6ec922163845",
-            "propertyId": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
-            "value": "spr_rachael_meleeHB"
-        },
-        {
             "id": "a45e67a3-7c77-449e-8257-e8f6f20cd7b3",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
@@ -159,7 +151,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "ae5237cc-e96b-4fc7-8f28-edb0e7adca7f",
-            "value": "1.2"
+            "value": "65"
         },
         {
             "id": "e8bc195f-9463-4324-9eed-db764fadefee",

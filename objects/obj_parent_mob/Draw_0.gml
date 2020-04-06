@@ -26,9 +26,21 @@ draw_healthbar(x + -10, y + 20, x + 10, y + 21, stagger, $00000000, $FF0000FF & 
 	// Draw detection lines
 	draw_set_colour(c_lime);
 	for (var i = 0; i < array_length_1d(detectionLines); i++){
-		var targetX = x + lengthdir_x(detectionDistance, direction + detectionLines[i])
-		var targetY = y + lengthdir_y(detectionDistance, direction + detectionLines[i])
-		draw_line(x, y, targetX, targetY)
+		var lookAtX = x + lengthdir_x(detectionDistance, direction + detectionLines[i])
+		var lookAtY = y + lengthdir_y(detectionDistance, direction + detectionLines[i])
+		draw_line(x, y, lookAtX, lookAtY)
 	}
+	// Draw bounding box
+	draw_line(bbox_left, bbox_top, bbox_right, bbox_top)
+	draw_line(bbox_right,bbox_top, bbox_right, bbox_bottom)
+	draw_line(bbox_right, bbox_bottom, bbox_left, bbox_bottom)
+	draw_line(bbox_left, bbox_bottom, bbox_left, bbox_top)
 	
+	// Draw bounging circle
+	draw_circle(x,y, 12, 1)
+	
+	// Draw target for moving
+	draw_set_colour(c_red);
+	draw_line(x,y, x + targetX, y + targetY)
+	//draw_line(x,y,pointOfInterestX, pointOfInterestY)
 }

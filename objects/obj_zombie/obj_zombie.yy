@@ -22,7 +22,7 @@
             "mvc": "1.0",
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "ae5237cc-e96b-4fc7-8f28-edb0e7adca7f",
-            "value": "0.3"
+            "value": "20"
         },
         {
             "id": "2205223b-d4ba-4c18-923e-964662c2bfed",
@@ -55,14 +55,6 @@
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "0992bf07-832d-4286-bcf9-6f7f4096dbf2",
             "value": "spr_zombie_melee"
-        },
-        {
-            "id": "5a04af07-5a72-4533-b3d8-68dcc0086950",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "96504881-668b-42fd-b032-6ec922163845",
-            "propertyId": "742e910c-aefd-4a15-8be4-28e6cdb3fd0d",
-            "value": "spr_zombie_meleeHB"
         },
         {
             "id": "12ef0eba-92d7-4cb1-989d-0807871ae555",

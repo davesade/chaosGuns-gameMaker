@@ -192,6 +192,14 @@
             "objectId": "96504881-668b-42fd-b032-6ec922163845",
             "propertyId": "34c8a76d-3fa3-4ac7-9b0f-a83c18452b49",
             "value": "0.01"
+        },
+        {
+            "id": "54bfac72-548e-4f6e-89a4-9499911cd872",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "96504881-668b-42fd-b032-6ec922163845",
+            "propertyId": "dfc80f8f-becf-49b1-a17a-95782295d5cb",
+            "value": "instance_create_depth(0,0,0, obj_sniper_rifle)"
         }
     ],
     "parentObjectId": "494a3b31-2be4-4d43-af7e-ccfda5808574",
