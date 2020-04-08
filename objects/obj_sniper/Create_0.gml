@@ -13,4 +13,4 @@ weapon.hearingDistance = 10
 //weapon.reloadTime = 120
 //weapon.shotDistance = 1000
 //weapon.spreadAngle = 1
-weapon.bulletSpeed = 20
+weapon.bulletSpeed = 15

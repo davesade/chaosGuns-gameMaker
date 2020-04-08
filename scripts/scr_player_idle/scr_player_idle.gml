@@ -30,7 +30,7 @@ if moving  {
 
 
 // Shooting only if holding actual gun
-if (weapon > 1) {
+if (weapon > 0) {
 	scr_reload()
 	scr_weapon_cooldown()
 	
@@ -49,7 +49,7 @@ if (weapon > 1) {
 }
 
 // Melee attack only if one hold melee weapon
-if (meleeWeapon > 1) {
+if (meleeWeapon > 0) {
 	scr_melee_cooldown()
 	if (canMelee && canshoot) {
 		if (distance_to_object(obj_parent_enemy) < meleeWeapon.meleeDistance) {

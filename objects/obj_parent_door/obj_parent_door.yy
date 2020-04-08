@@ -162,7 +162,7 @@
             "resourceFilter": 1023,
             "value": "obj_default_key",
             "varName": "unlockKey",
-            "varType": 5
+            "varType": 0
         },
         {
             "id": "e22d0cb4-1b9b-4c99-afaf-e80a4b10a397",

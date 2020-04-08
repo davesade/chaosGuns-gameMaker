@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "36830c87-5933-4474-81d1-dcdf31940d74",
+            "Value": {
+                "id": "8437f2b5-d2ca-4a38-a8cc-336f18628cfa",
+                "resourcePath": "objects\/obj_red_keycard\/obj_red_keycard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36fa6b76-66f8-4a28-964a-4963e092212d",
             "Value": {
                 "id": "3caa9a12-0aa6-4365-af67-30fe30cf8a9d",
@@ -1188,6 +1196,14 @@
                 "id": "5e9e98b1-437d-4ad3-8b36-3ff0b3898867",
                 "resourcePath": "rooms\/vojenska_zakladna\/vojenska_zakladna.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "64af7ee2-46e3-4686-a6d4-4097c25e4aee",
+            "Value": {
+                "id": "5a073c28-dc62-4c32-9d0f-a28025753d90",
+                "resourcePath": "sprites\/spr_red_keycard\/spr_red_keycard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2164,6 +2180,14 @@
                 "id": "dfb6ae45-0843-4347-9285-c83ffdfadbd8",
                 "resourcePath": "scripts\/scr_stagger\/scr_stagger.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c03a7663-bb4f-4132-a397-385fecacfc90",
+            "Value": {
+                "id": "5bcd5fcf-d149-4296-acce-481569e13743",
+                "resourcePath": "objects\/nextLevelArray\/nextLevelArray.yy",
+                "resourceType": "GMObject"
             }
         },
         {
